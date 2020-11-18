@@ -1,0 +1,83 @@
+#hero h1 span {
+    color: #fff !important;
+    border-bottom: 2px solid #c841dab8 !important;
+}
+
+.nav-menu > ul > li > a:before {   
+    background-color: #ffffff !important;
+}
+
+.active > a:before {
+    visibility: visible;
+    width: 65% !important;;
+    align-items: center;
+    align-content: center;
+}
+
+#my_btn{
+    background: #011B33 0% 0% no-repeat padding-box;
+}
+#header.header-scrolled {
+    background:rgb(0 0 0 / 46%)!important;
+    height: 50px !important;
+}
+.buy_bit{
+color: var(--unnamed-color-011b33);
+text-align: left;
+letter-spacing: 0px;
+color: #011B33;
+opacity: 1;
+}
+.my_font{
+    color: var(--unnamed-color-011b33);  
+    letter-spacing: 0px;
+    color: #011B33;
+    opacity: 1;
+    }
+
+
+    /* CAROUSEL? */
+
+    body {
+        padding-top: 20px;
+    }
+    
+    .carousel {
+      width: 100%;
+    }
+    
+    .slide-box {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .slide-box img {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .slide-box img {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+      }
+    }
+    
+    @media (min-width: 992px)
+    {
+      .slide-box img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+    }
+    
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: .5rem;
+    }
