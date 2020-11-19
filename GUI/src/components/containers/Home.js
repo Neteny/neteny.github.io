@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
-import Nav from "../base/Nav"
+import Nav from "../base/Nav";
+import Footer from "../base/Footer";
 
 
 export class Home extends Component {
@@ -10,6 +11,7 @@ export class Home extends Component {
         return (
             <div>
                 <Nav />
+
                 <section id="hero">
                     <div className="container">
                         <div className="row">
@@ -52,8 +54,9 @@ export class Home extends Component {
                     </svg>
 
                 </section>
+
                 <main id="main">
-                    <section id="about" className="about my_font">
+                    <section id="" className="about my_font">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 text-left pb-5" data-aos="fade-right" data-aos-delay="50">
@@ -69,7 +72,7 @@ export class Home extends Component {
                         </div>
 
                     </section>
-                    <section id="" className="about my_font">
+                    <section id="section-1" className="about my_font">
                         <div className="container">
                             <div className="row border-top border-bottom py-2" style={{ borderRadius: '2em' }}>
                                 <div className="col-md-4 col-lg-4 text-justify" data-aos="fade-left" data-aos-delay="50">
@@ -103,7 +106,7 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about my_font">
+                    <section id="section-2" className="about my_font">
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6 text-center" data-aos="fade-right" data-aos-delay="50">
@@ -161,27 +164,27 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about my_font border">
+                    <section id="section-3" className="about my_font border">
                         <div className="container">
-                            <div className="row py-5" data-aos="zoom-in" data-aos-delay="250">
+                            <div className="row py-5" data-aos="zoom-in" data-aos-delay="150">
                                 <div className="col-12 text-left">
                                     <p className="h3"><b>Refill: Use Bitcoin For <br /> Your Daily Transactions</b></p>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="60">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-1.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Airtime Purchase</b></p>
                                         <span>Buy airtime from MTN, Airtel, Glo and 9mobile directly from your BTC wallet.</span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="160">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-2.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Data Subscription</b></p>
                                         <span>Buy internet data from Swift, Airtel, Spectranet, MTN, Glo and 9mobile directly from your BTC wallet.</span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="260">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-3.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Airtime to Cash</b></p>
@@ -192,7 +195,7 @@ export class Home extends Component {
 
                         </div>
                     </section>
-                    <section id="about" className="about my_font">
+                    <section id="section-4" className="about my_font">
                         <div className="container-fluid">
                             <div className="row bg-dark text-center">
                                 <div className="col-lg-6 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
@@ -216,7 +219,7 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="about" className="about my_font">
+                    <section id="section-5" className="about my_font">
                         <div className="container-fluid">
                             <div className="row py-5" data-aos="zoom-in" data-aos-delay="50">
                                 <div className="col-12 text-left">
@@ -372,14 +375,9 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-
-
-
-
-
                     <section id="about" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container-fluid">
-                            <div className="row" data-aos="fade-down" data-aos-delay="50">
+                            <div className="row" data-aos="zoom-in" data-aos-delay="50">
                                 <div className="col-md-10 col-sm-12  mx-auto text-center py-5" style={{ fontFamily: 'system-ui', background: '#011b33', borderRadius: "2em" }}>
                                     <img src="" alt="" />
                                     <p className="h2 text-white">Start buying bitcoin now</p>
@@ -391,70 +389,8 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-
-                    <section id="about" className="about my_font" style={{ fontFamily: 'system-ui' }}>
-                        <div className="container-fluid border">
-                            <div className="row py-5">
-                                <div className="col-md-4">
-                                    <p className="text-left"><b>Subscribe to our newsletter</b></p>
-                                    <form>
-                                        <div class="input-group mb-3">
-                                            <input type="email" class="form-control rounded-pill" placeholder="Your e-mail address" />
-                                            <div class="input-group-append" style={{ position: "relative", left: '-55px', zIndex: 99 }}>
-                                                <span class="input-group-text rounded-pill text-white" style={{ background: 'rgb(1, 27, 51)' }}>Subscribe <i className="la la-angle-right"></i></span>
-                                            </div>
-                                            <div className="row col-12 mt-5">
-                                                <i class="lab la-twitter px-3 h4"></i>
-                                                <i class="lab la-facebook-square px-3 h4"></i>
-                                                <i class="lab la-instagram px-3 h4"></i>
-                                                <i class="lab la-linkedin px-3 h4"></i>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <ul style={{ listStyle: "none" }} className="col-md-2 text-left">
-                                    <p className="text-left"><b>Product</b></p>
-                                    <li>Currency Exchange</li>
-                                    <li> Service Payments</li>
-                                    <li> Bitcoin</li>
-                                    <li> Wallet</li>
-                                    <li> Giftcards</li>
-                                </ul>
-
-                                <ul style={{ listStyle: "none" }} className="col-md-2 text-left">
-                                    <p className="text-left"><b>Support</b></p>
-                                    <li>Privacy Policy</li>
-                                    <li> Terms of Use</li>
-                                </ul>
-                                <ul style={{ listStyle: "none" }} className="col-md-2 text-left">
-                                    <p className="text-left"><b>Legal</b></p>
-                                    <li>About Us</li>
-                                    <li> Contact </li>
-                                    <li>FAQs</li>
-                                </ul>
-                                <ul style={{ listStyle: "none" }} className="col-md-2 text-left">
-                                    <p className="text-left"><b>Company</b></p>
-                                    <li>Affiliate Program</li>
-                                    <li>  Customer Reviews</li>
-                                </ul>
-                            </div>
-                            <div className="col-10 mx-auto border-top  text-center">
-                                <p className="py-5">
-                                    <small>CoinLynk is a property of Lorem Technologies Limited,
-                                    a company duly registered with CAC with RC Number: 1484208.
-                                    Account numbers and Verve Cards are provided by Rubies Microfinance Bank
-                                    , a company duly registered under the Laws of the Federal Republic of Nigeria;
-                                    and duly licensed by the Central Bank of Nigeria, and pursuant to
-                                       the rules of Verve International Limited.</small>
-                                </p>
-                                <small>
-                                    CoinLynk 2020. All Rights Reserved.
-                                </small>
-                            </div>
-                        </div>
-                    </section>
-
-                </main >
+                    <Footer />
+                </main>
             </div >
         )
     }

@@ -100,6 +100,12 @@ opacity: 1;
     .resizebtn{
       font-size: 11px;
     }
+    #hero {
+      background-size: 100% 100%;
+    }
+    .hero-waves {      
+      top: 0;
+    }
   }
 
   #edge_bender_2{
@@ -109,5 +115,12 @@ opacity: 1;
     height: 65vh;
     overflow: hidden;
   }
-
+  #product_page {
+    width: 100%;
+    background: url("../img/bg/product.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    /* padding: 120px 0 0 0; */
+  }
  
