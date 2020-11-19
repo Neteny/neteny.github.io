@@ -388,16 +388,18 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/bg/bg-home.png");
+  background-repeat: no-repeat;
   position: relative;
-  padding: 120px 0 0 0;
+  background-size: 100% 100%;
+  /* padding: 120px 0 0 0; */
 }
 
 #hero:before {
   content: "";
   /* background: rgba(2, 5, 161, 0.91); */
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 7%, rgba(218,177,209,1) 11%, rgba(11,107,221,1) 100%);
+  /* background: rgb(238,174,202); */
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 7%, rgba(218,177,209,1) 11%, rgba(11,107,221,1) 100%); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -508,6 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   z-index: 5;
   position: relative;
+  top: 3.8em;
 }
 
 .wave1 use {

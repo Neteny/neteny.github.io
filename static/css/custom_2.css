@@ -35,13 +35,9 @@ opacity: 1;
     opacity: 1;
     }
 
-
     /* CAROUSEL? */
 
-    body {
-        padding-top: 20px;
-    }
-    
+ 
     .carousel {
       width: 100%;
     }
@@ -81,3 +77,37 @@ opacity: 1;
       padding: 20px;
       border-radius: .5rem;
     }
+
+
+  #edge_bender_1{
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;   
+    padding: 4em ;
+    height: 65vh;
+    overflow: hidden;
+  }
+  #edge_bender_2 img, #edge_bender_1 img{
+    width: 50%;
+  }
+  #slider_pad{
+    width: 95%;
+  }
+  @media screen and (max-width: 780px){
+    #edge_bender_2, #edge_bender_1{
+      padding: 2em !important;  
+      height: unset;     
+    }
+    .resizebtn{
+      font-size: 11px;
+    }
+  }
+
+  #edge_bender_2{
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: 4em ;
+    height: 65vh;
+    overflow: hidden;
+  }
+
+ 
