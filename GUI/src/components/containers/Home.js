@@ -246,11 +246,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Excellent!</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
@@ -263,11 +263,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Sharon Ooja</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
@@ -280,11 +280,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Michael Jordan</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
@@ -305,11 +305,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Sharon Ooja</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
@@ -322,11 +322,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Sharon Ooja</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
@@ -339,11 +339,11 @@ export class Home extends Component {
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
-                                                                        <i className="la la-star text-warning"></i>
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
+                                                                        <i className="la la-star text-warning"></i> &thinsp;
                                                                     </div>
                                                                     <b>Michael Jordan</b>
                                                                     <div className="h6 py-2" style={{ fontFamily: 'system-ui' }}>
