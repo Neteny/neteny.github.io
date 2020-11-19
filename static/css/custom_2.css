@@ -124,3 +124,16 @@ opacity: 1;
     /* padding: 120px 0 0 0; */
   }
  
+  #prod_page_top{
+    font-size: 5em !important;
+     font-family: "system-ui";
+      font-weight: 500;
+       line-height: 100px;
+     }
+     @media screen and (max-width: 780px){
+      #prod_page_top{
+        font-size: 'unset';         
+          font-weight: 1000;
+           line-height: "unset";
+         }
+     }
