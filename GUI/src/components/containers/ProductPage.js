@@ -55,15 +55,15 @@ export class ProductPage extends Component {
                 </section>
                 <section>
                     <div className="container">
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
-                                <div className="p-3">
+                                <div className="">
                                     <img src="static/img/sec3/trade-gift-card.png" alt="trade-gift-card" className="img-fluid p-5 p-5" />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-success"><b>Why CoinLynk</b></small></p>
+                                    <p><small className="text-success"><b>Trade</b></small></p>
                                     <h1>Trade giftcards</h1>
                                     <span>
                                         Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
@@ -77,16 +77,16 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-warning"><b>Why CoinLynk</b></small></p>
-                                    <h1>Trade giftcards</h1>
+                                    <p><small className="text-warning"><b>Trade</b></small></p>
+                                    <h1>Transact via various digital assets</h1>
                                     <span>
                                         Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
                                 </span>
@@ -98,16 +98,16 @@ export class ProductPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
-                                <div className="p-3">
-                                    <img src="static/img/sec3/bit-coin.png" alt="trade-gift-card" className="img-fluid p-5" />
+                                <div className="">
+                                    <img src="static/img/sec3/bit-coin.png" alt="trade-gift-card" className="img-fluid p-5" style={{ height: "30vw" }} />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-danger"><b>Why CoinLynk</b></small></p>
-                                    <h1>Trade giftcards</h1>
+                                    <p><small className="text-danger"><b>Trade</b></small></p>
+                                    <h1>Buy and sell bitcoin</h1>
                                     <span>
                                         Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
                                 </span>
@@ -120,19 +120,17 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/exchange-currency.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-secondary" style={{ color: '#a6c' }}><b>Why CoinLynk</b></small></p>
-                                    <h1>Trade giftcards</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
-                                </span>
+                                    <p><small className="" style={{ color: 'rgb(170 102 204)' }}><b>Exchange</b></small></p>
+                                    <h1>Exchange currencies</h1>
+                                    <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait. </span>
                                     <div>
                                         <Link to="" className="rounded-pill btn btn-secondary text-white">
                                             Get Started <i className="la la-angle-right"></i>
@@ -142,42 +140,41 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
-                                <div className="p-3">
+                                <div className="">
                                     <img src="static/img/sec3/coinlink-debit-card.png" alt="trade-gift-card" className="img-fluid p-5" />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-danger"><b>Why CoinLynk</b></small></p>
+                                    <p><small className="text-info"><b>Debit Card</b></small></p>
                                     <h1>Trade giftcards</h1>
                                     <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
-                                </span>
+                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait. </span>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-danger">
+                                        <Link to="" className="rounded-pill btn btn-info">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/convert-to-access.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>
                             </div>
-                            <div className="col-md-6 text=left">
+                            <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-secondary" style={{ color: '#a6c' }}><b>Why CoinLynk</b></small></p>
+                                    <p><small className="text-default" style={{ color: '#a6c' }}><b>Why CoinLynk</b></small></p>
                                     <h1>Trade giftcards</h1>
                                     <span>
                                         Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
                                 </span>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-secondary text-white">
+                                        <Link to="" className="rounded-pill btn btn-default text-white">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
