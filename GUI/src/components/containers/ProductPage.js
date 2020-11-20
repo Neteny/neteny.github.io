@@ -54,10 +54,10 @@ export class ProductPage extends Component {
                 </section>
                 <section>
                     <div className="container">
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
                                 <div className="">
-                                    <img src="static/img/sec3/trade-gift-card.png" alt="trade-gift-card" className="img-fluid p-5 p-5" />
+                                    <img src="static/img/sec3/trade-gift-card.png" alt="trade-gift-card" className="img-fluid p-5" />
                                 </div>
                             </div>
                             <div className="col-md-6 text-left">
@@ -77,7 +77,7 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid p-5" />
@@ -99,7 +99,7 @@ export class ProductPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
                                 <div className="">
                                     <img src="static/img/sec3/bit-coin.png" alt="trade-gift-card" className="img-fluid p-5" style={{ height: "21em" }} />
@@ -122,7 +122,7 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom pb-5" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/exchange-currency.png" alt="trade-data-assets" className="img-fluid p-5" />
@@ -145,7 +145,7 @@ export class ProductPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
                                 <div className="">
                                     <img src="static/img/sec3/coinlink-debit-card.png" alt="trade-gift-card" className="img-fluid p-5" />
@@ -168,7 +168,7 @@ export class ProductPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6 order-lg-12">
                                 <div className="">
                                     <img src="static/img/sec3/convert-to-access.png" alt="trade-data-assets" className="img-fluid p-5" />
