@@ -266,13 +266,14 @@ overflow: hidden;
   left: -47px;
 }
   @media (max-width: 967px) { 
+ 
     #prod_sec_1,
     #prod_sec_2,
     #prod_sec_3,
     #prod_sec_4{
     height: auto;
     }
-    #shift_center_1{    
+    #shift_center_2, #shift_center_1{    
       left: 0px;
     }
     #slide_sizer{
