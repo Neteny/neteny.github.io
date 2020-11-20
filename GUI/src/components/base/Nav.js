@@ -21,34 +21,34 @@ export class Nav extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light fixed-top navbar-light clearHeader">
-                    <Link to="/" className="navbar-brand text-white mx-3"><strong className="h2 font-weight-bold">coinlynk</strong></Link>
+                    <Link to="/" className="navbar-brand text-white mx-4"><strong className="h2 font-weight-bold">coinlynk</strong></Link>
                     <button className="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="la la-bars h2 text-white"></span>
                     </button>
                     <div className="collapse navbar-collapse text-center" id="navbarNavDropdown">
-                        <ul className="navbar-nav text-center mx-auto" id="shift_center">
+                        <ul className="navbar-nav text-center mx-auto" id="shift_center_1">
                             <li className="nav-item">
-                                <Link to="/product" className="nav-link text-white font-weight-bold" href="#">Product <span className="sr-only">(current)</span></Link>
+                                <Link to="/product" className="nav-link text-white" href="#">Product <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="" className="nav-link text-white font-weight-bold" href="#">Company</Link>
+                                <Link to="" className="nav-link text-white" href="#">Company</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="" className="nav-link text-white font-weight-bold" href="#">Rates</Link>
+                                <Link to="" className="nav-link text-white" href="#">Rates</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="" className="nav-link text-white font-weight-bold" href="#">Help</Link>
+                                <Link to="" className="nav-link text-white" href="#">Help</Link>
                             </li>
 
                         </ul>
-                        <div className="float-lg-right text-center mx-auto">
+                        <div className="float-lg-right text-center mx-auto" id="shift_center_2">
                             <ul className="navbar-nav">
-                                <li className="btn btn-info btn-sm rounded-pill  h6">
-                                    <Link to="" className="text-white font-weight-bold">Sign in <i className="la la-angle-right"></i>
+                                <li className="btn btn-sm rounded-pill" id="custom_btn_light_blue">
+                                    <Link to="" className="text-white">Sign in <i className="la la-angle-right"></i>
                                     </Link>
                                 </li>
-                                <li className="btn btn-dark btn-sm rounded-pill h6" style={{ backgroundColor: '#011B33 0% 0% no-repeat padding-box' }}>
-                                    <Link to="" className="text-white font-weight-bold">Get Started <i className="la la-angle-right"></i>
+                                <li className="btn btn-sm rounded-pill" id="custom_btn_dark">
+                                    <Link to="" className="text-white">Get Started <i className="la la-angle-right"></i>
                                     </Link>
                                 </li>
                             </ul>

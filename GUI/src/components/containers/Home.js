@@ -17,13 +17,13 @@ export class Home extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 mt-5 pt-5">
                                 <div data-aos="zoom-out">
-                                    <h1>  Some call it  <br /> magic, we call it  <br />  <span>convenience</span>.</h1>
-                                    <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card<br />
-                                         from a leading cryptocurrency exchange platform simply, securely<br />
-                                          and without the wait.
+                                    <h1 className="">  Some call it  <br /> magic, we call   <br /> it convenience.</h1>
+                                    <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card
+                                    from a leading cryptocurrency exchange platform simply, securely
+                                    and without the wait.
                                            </p>
                                     <div className="text-center text-lg-left">
-                                        <Link to="" className="btn-get-started scrollto btn-dark" style={{ backgroundColor: '#011B33 0% 0% no-repeat padding-box' }}>Get Started</Link>
+                                        <Link to="" className="btn text-white btn-sm" id="custom_btn_dark">Get Started</Link>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export class Home extends Component {
                     <section id="" className="about my_font">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 text-left pb-5" data-aos="fade-right" data-aos-delay="50">
+                                <div className="col-12 text-left" data-aos="fade-right" data-aos-delay="50">
                                     <p><small className="text-success"><b>Why CoinLynk</b></small></p>
                                     <h1 className="buy_bit">
                                         Buy bitcoin with a debit card instantly.
@@ -74,9 +74,9 @@ export class Home extends Component {
                     </section>
                     <section id="section-1" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
-                            <div className="row border-top border-bottom py-2" style={{ borderRadius: '2em' }}>
+                            <div className="row">
                                 <div className="col-md-4 col-lg-4 text-justify" data-aos="fade-left" data-aos-delay="50">
-                                    <p className="text-left"><i className="ri-timer-flash-line h1 text-primary"></i></p>
+                                    <p className="text-left"><i className="ri-timer-flash-line h2 text-primary"></i></p>
                                     <strong>Instant delivery</strong>
                                     <p className="">
                                         We’ll send your bitcoin within 15 minutes of payment approval or get your next transaction fee free.
@@ -96,11 +96,11 @@ export class Home extends Component {
                                         We have 24/7 live support via instant chat, e-mail and phone so you’re never alone.
                                         </p>
                                 </div>
-                                <div className="col-md-6 col-lg-6 text-center mx-auto py-5 border-top" data-aos="zoom-in" data-aos-delay="160">
+                                <div className="col-md-6 col-lg-6 text-center mx-auto py-5 my-5" data-aos="zoom-in" data-aos-delay="160">
                                     <small className="text-success"><b>Why CoinLynk</b></small>
                                     <h2 className="font-weight-bold">Main copy that says <br /> what coinlynk is about</h2>
                                     <p>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.</p>
-                                    <Link to="" className="text-white btn btn-primary rounded-pill mx-2 h6 mt-3animated flipInX" style={{ animationDelay: '1s' }}>
+                                    <Link to="" className="text-white btn rounded-pill mx-2 h6 mt-3animated flipInX custom_btn_dark_blue" style={{ animationDelay: '1s' }}>
                                         Buy bitcoin <i className="la la-angle-right"></i></Link>
                                 </div>
                             </div>
@@ -109,62 +109,62 @@ export class Home extends Component {
                     <section id="section-2" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-right" data-aos-delay="50">
-                                    <div className="my-2 card-header" style={{ background: 'rgb(232 234 196 / 28%) no-repeat' }} id="edge_bender_1">
+                                <div className="col-md-6 col-lg-6 text-center mb-4" data-aos="fade-right" data-aos-delay="50">
+                                    <div className="py-5" id="prod_sec_1">
                                         <div>
                                             <p className="h3 font-weight-bold text-dark">Trade Digital Assets</p>
                                             <span>Withdraw your BTC in cash with your customized Patricia Bitcoin debit card</span>
                                             <br />
                                             <Link to=""> Learn more <i className="la la-angle-right"></i></Link>
                                         </div>
-                                        <div>
-                                            <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid mt-5" />
+                                        <div className="m-5">
+                                            <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-left" data-aos-delay="50" style={{ fontFamily: 'system-ui' }}>
-                                    <div className="my-2" style={{ background: '#5470c717 no-repeat padding-box' }} id="edge_bender_2">
+                                <div className="col-md-6 col-lg-6 text-center mb-4" data-aos="fade-left" data-aos-delay="50">
+                                    <div className="py-5" id="prod_sec_2">
                                         <div>
                                             <p className="h3 font-weight-bold text-dark">Trade Giftcards</p>
                                             <span>Buy and sell gift cards on the CoinLynk app</span>
                                             <br />
                                             <Link to=""> Learn more <i className="la la-angle-right"></i></Link>
                                         </div>
-                                        <div>
-                                            <img src="static/img/sec3/trade-gift-card.png" alt="trade-gift-card" className="img-fluid mt-5" />
+                                        <div className="m-5">
+                                            <img src="static/img/sec3/trade-gift-card.png" alt="trade-gift-card" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-right" data-aos-delay="50">
-                                    <div className="my-2 card-header" style={{ background: 'rgb(0 196 255 / 12%) no-repeat padding-box' }} id="edge_bender_1">
-                                        <div>
+                                <div className="col-md-6 col-lg-6 text-center mb-4" data-aos="fade-right" data-aos-delay="50">
+                                    <div className="py-5" id="prod_sec_3">
+                                        <div className="">
                                             <p className="h3 font-weight-bold text-dark">CoinLynk debit card</p>
                                             <span>Withdraw your BTC in cash with your customized Patricia Bitcoin debit card</span>
                                             <br />
                                             <Link to=""> Learn more <i className="la la-angle-right"></i></Link>
                                         </div>
-                                        <div>
-                                            <img src="static/img/sec3/coinlink-debit-card.png" alt="coinlink-debit-card" className="img-fluid mt-5" />
+                                        <div className="m-5">
+                                            <img src="static/img/sec3/coinlink-debit-card.png" alt="coinlink-debit-card" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-left" data-aos-delay="50">
-                                    <div className="my-2 card-header" style={{ background: '#fbd8ff6e no-repeat padding-box' }} id="edge_bender_2">
+                                <div className="col-md-6 col-lg-6 text-center mb-4" data-aos="fade-left" data-aos-delay="50">
+                                    <div className="py-5" id="prod_sec_4">
                                         <div>
                                             <p className="h3 font-weight-bold text-dark">Exchange currencies</p>
                                             <span>Withdraw your BTC in cash with your customized Patricia Bitcoin debit card</span>
                                             <br />
                                             <Link to=""> Learn more <i className="la la-angle-right"></i></Link>
                                         </div>
-                                        <div>
-                                            <img src="static/img/sec3/exchange-currency.png" alt="exchange-currency.png" className="img-fluid mt-5" />
+                                        <div className="m-5">
+                                            <img src="static/img/sec3/exchange-currency.png" alt="exchange-currency.png" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section id="product" className="about my_font border" style={{ fontFamily: 'system-ui' }}>
+                    <section id="product" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
                             <div className="row py-5" data-aos="zoom-in" data-aos-delay="150">
                                 <div className="col-12 text-left">
@@ -197,7 +197,7 @@ export class Home extends Component {
                     </section>
                     <section id="section-4" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container-fluid">
-                            <div className="row bg-dark text-center">
+                            <div className="row bg-dark text-center py-5">
                                 <div className="col-lg-6 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
                                     <p className="py-2 mt-2 h1"><i className="ri-shield-line text-white"></i></p>
                                     <p><small className="text-success"><b>CoinLynk Guarantee</b></small></p>
@@ -207,20 +207,19 @@ export class Home extends Component {
                                     <img src="" alt="" />
                                     </p>
 
-                                    <div className="row mx-auto text-center py-3">
-                                        <div className="col-6">
-                                            <Link to="" className="btn btn-success border rounded-pill text-white"><span className="resizebtn">Get Started <i className="la la-angle-right"></i></span></Link>
-                                        </div>
-                                        <div className="col-6">
-                                            <Link to="" className="btn btn-none border rounded-pill text-white"><span className="resizebtn">Buy Bitcoin <i className="la la-angle-right"></i></span></Link>
-                                        </div>
+                                    <div className="mx-auto text-center py-3">
+                                        <Link to="" className="btn btn-success border rounded-pill text-white btn-sm"><span className="resizebtn">Get Started <i className="la la-angle-right"></i></span></Link>
+
+
+                                        <Link to="" className="btn btn-none border rounded-pill text-white btn-sm"><span className="resizebtn">Buy Bitcoin <i className="la la-angle-right"></i></span></Link>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section id="section-5" className="about my_font">
-                        <div className="container-fluid">
+                        <div className="container">
                             <div className="row py-5" data-aos="zoom-in" data-aos-delay="50">
                                 <div className="col-12 text-left">
                                     <p><small className="text-success"><b>Testimonials</b></small></p>
@@ -243,12 +242,12 @@ export class Home extends Component {
                                                     <span className="la la-angle-right rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                 </a>
                                             </div>
-                                            <div className="col-sm-10 mx-auto">
+                                            <div className="col-sm-12 mx-auto">
                                                 <div className="carousel-item active">
                                                     <div className="d-block mx-3">
                                                         <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -265,7 +264,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -282,7 +281,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -307,7 +306,7 @@ export class Home extends Component {
                                                     <div className="d-block mx-3">
                                                         <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -324,7 +323,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -341,7 +340,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;

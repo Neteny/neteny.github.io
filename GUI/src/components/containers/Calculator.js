@@ -55,8 +55,6 @@ export class Calculator extends Component {
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
-
-
                                                             </div>
                                                         </div>
                                                     </div>
@@ -68,11 +66,14 @@ export class Calculator extends Component {
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
-                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
-                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
                                                             </div>
@@ -111,6 +112,14 @@ export class Calculator extends Component {
                             <use xlinkHref="#wave-path" x="50" y="9" fill="#f3bea1" />
                         </g>
                     </svg>
+                </section>
+
+                <section>
+                    <div className="container">
+                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+
+                        </div>
+                    </div>
                 </section>
                 <Footer />
             </div >
