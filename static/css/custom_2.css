@@ -1,3 +1,6 @@
+html, body{
+font-family: 'system-ui' !important;
+}
 #hero h1 span {
     color: #fff !important;
     border-bottom: 2px solid #c841dab8 !important;
@@ -153,4 +156,53 @@ opacity: 1;
     background-repeat: no-repeat;
     position: relative;
     background-size: 100% 100%;
+  }
+
+
+  @media (min-width: 768px) { 
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }
+    }
+    @media (max-width: 767px) { 
+    .dropdown:hover .dropdown-menu
+       { display: none;
+        margin-top: auto; }
+    }
+
+    .clearHeader{
+      background-color: none;
+    }
+    .darkHeader{
+      background-color: #00000073;
+    }
+    .navbar {
+      box-shadow: none !important;
+    }
+    /* @media (max-width: 767px) {
+      .clearHeader{
+        background-color: #c680fc;
+      }
+      .darkHeader{
+        background-color: #100c2073;
+      }
+    } */
+
+    .show{
+      background-color:#0c0c0cb8;
+      border-radius: 2em;
+      border: solid 1px whitesmoke;
+      padding-bottom: 1em;
+
+    }
+
+  #shift_center{
+    position: relative;
+    left: 160px;
+  }
+  @media (max-width: 967px) { 
+    #shift_center{    
+      left: 0px;
+    }
   }

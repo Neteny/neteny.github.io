@@ -72,7 +72,7 @@ export class Home extends Component {
                         </div>
 
                     </section>
-                    <section id="section-1" className="about my_font">
+                    <section id="section-1" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
                             <div className="row border-top border-bottom py-2" style={{ borderRadius: '2em' }}>
                                 <div className="col-md-4 col-lg-4 text-justify" data-aos="fade-left" data-aos-delay="50">
@@ -106,7 +106,7 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="section-2" className="about my_font">
+                    <section id="section-2" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6 text-center" data-aos="fade-right" data-aos-delay="50">
@@ -122,7 +122,7 @@ export class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-left" data-aos-delay="50">
+                                <div className="col-md-6 col-lg-6 text-center" data-aos="fade-left" data-aos-delay="50" style={{ fontFamily: 'system-ui' }}>
                                     <div className="my-2" style={{ background: '#5470c717 no-repeat padding-box' }} id="edge_bender_2">
                                         <div>
                                             <p className="h3 font-weight-bold text-dark">Trade Giftcards</p>
@@ -164,7 +164,7 @@ export class Home extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id="section-3" className="about my_font border">
+                    <section id="product" className="about my_font border" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
                             <div className="row py-5" data-aos="zoom-in" data-aos-delay="150">
                                 <div className="col-12 text-left">
@@ -195,11 +195,11 @@ export class Home extends Component {
 
                         </div>
                     </section>
-                    <section id="section-4" className="about my_font">
+                    <section id="section-4" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container-fluid">
                             <div className="row bg-dark text-center">
                                 <div className="col-lg-6 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
-                                    <p className="py-2 mt-2 h1"><i class="ri-shield-line text-white"></i></p>
+                                    <p className="py-2 mt-2 h1"><i className="ri-shield-line text-white"></i></p>
                                     <p><small className="text-success"><b>CoinLynk Guarantee</b></small></p>
                                     <p className="text-white h2">Our Guarantee</p>
                                     <p className="text-white">We will send within 5 minutes of approval <br /> or your next transaction is fee-free.</p>
@@ -226,27 +226,27 @@ export class Home extends Component {
                                     <p><small className="text-success"><b>Testimonials</b></small></p>
                                     <h2>What our customers <br /> are saying</h2>
                                 </div>
-                                <div class="row">
+                                <div className="row">
 
-                                    <div id="carousel" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                    <div id="carousel" className="carousel slide" data-ride="carousel">
+                                        <ol className="carousel-indicators">
+                                            <li data-target="#carousel" data-slide-to="0" className="active"></li>
                                             <li data-target="#carousel" data-slide-to="1"></li>
                                         </ol>
 
-                                        <div class="carousel-inner">
+                                        <div className="carousel-inner">
                                             <div>
-                                                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                                <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                                                     <span className="la la-angle-left rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                 </a>
-                                                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                                <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
                                                     <span className="la la-angle-right rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                 </a>
                                             </div>
                                             <div className="col-sm-10 mx-auto">
-                                                <div class="carousel-item active">
-                                                    <div class="d-block mx-3">
-                                                        <div class="slide-box row text-left">
+                                                <div className="carousel-item active">
+                                                    <div className="d-block mx-3">
+                                                        <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">
@@ -303,9 +303,9 @@ export class Home extends Component {
                                                     </div>
                                                 </div>
 
-                                                <div class="carousel-item">
-                                                    <div class="d-block mx-3">
-                                                        <div class="slide-box row text-left">
+                                                <div className="carousel-item">
+                                                    <div className="d-block mx-3">
+                                                        <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
                                                                 <div className="card p-3">
                                                                     <div className="py-2">

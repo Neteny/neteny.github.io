@@ -24,16 +24,16 @@ export class Footer extends Component {
                             <div className="col-md-4">
                                 <p className="text-left"><b>Subscribe to our newsletter</b></p>
                                 <form>
-                                    <div class="input-group mb-3">
-                                        <input type="email" class="form-control rounded-pill" placeholder="Your e-mail address" />
-                                        <div class="input-group-append" style={{ position: "relative", left: '-55px', zIndex: 99 }}>
-                                            <span class="input-group-text rounded-pill text-white" style={{ background: 'rgb(1, 27, 51)' }}>Subscribe <i className="la la-angle-right"></i></span>
+                                    <div className="input-group mb-3">
+                                        <input type="email" className="form-control rounded-pill" placeholder="Your e-mail address" />
+                                        <div className="input-group-append" style={{ position: "relative", left: '-55px', zIndex: 99 }}>
+                                            <span className="input-group-text rounded-pill text-white" style={{ background: 'rgb(1, 27, 51)' }}>Subscribe <i className="la la-angle-right"></i></span>
                                         </div>
                                         <div className="row col-12 mt-5">
-                                            <i class="lab la-twitter px-3 h4"></i>
-                                            <i class="lab la-facebook-square px-3 h4"></i>
-                                            <i class="lab la-instagram px-3 h4"></i>
-                                            <i class="lab la-linkedin px-3 h4"></i>
+                                            <i className="lab la-twitter px-3 h4"></i>
+                                            <i className="lab la-facebook-square px-3 h4"></i>
+                                            <i className="lab la-instagram px-3 h4"></i>
+                                            <i className="lab la-linkedin px-3 h4"></i>
                                         </div>
                                     </div>
                                 </form>

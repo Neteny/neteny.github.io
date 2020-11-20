@@ -23,33 +23,36 @@ export class Calculator extends Component {
                                         </small>
                                     </p>
                                     <div className="text-center">
-                                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                        <div id="carousel" className="carousel slide" data-ride="carousel">
+                                            <ol className="carousel-indicators">
+                                                <li data-target="#carousel" data-slide-to="0" className="active"></li>
                                                 <li data-target="#carousel" data-slide-to="1"></li>
                                             </ol>
-                                            <div class="carousel-inner">
+                                            <div className="carousel-inner">
                                                 <div>
-                                                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                                    <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                                                         <span className="la la-angle-left rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                     </a>
-                                                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                                    <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
                                                         <span className="la la-angle-right rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                     </a>
                                                 </div>
                                                 <div className="mx-auto">
-                                                    <div class="carousel-item active">
-                                                        <div class="d-block mx-3">
-                                                            <div class="slide-box row text-left">
-                                                                <div className="col-md-4 py-3">
+                                                    <div className="carousel-item active">
+                                                        <div className="d-block mx-3">
+                                                            <div className="slide-box row text-left">
+                                                                <div className="col-md-3 py-3">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
-                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
-                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+                                                                <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
@@ -58,10 +61,10 @@ export class Calculator extends Component {
                                                         </div>
                                                     </div>
 
-                                                    <div class="carousel-item">
-                                                        <div class="d-block mx-3">
-                                                            <div class="slide-box row text-left">
-                                                                <div className="col-md-4 py-3">
+                                                    <div className="carousel-item">
+                                                        <div className="d-block mx-3">
+                                                            <div className="slide-box row text-left">
+                                                                <div className="col-md-3 py-3">
                                                                     <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
 

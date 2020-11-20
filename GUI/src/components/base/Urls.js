@@ -13,19 +13,22 @@ export class Urls extends Component {
 
         return (
             <div>
-                {/* <BrowserRouter> */}
-                <Router>
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/product" component={ProductPage} />
-                        <Route exact path="/calculator" component={Calculator} />
-                    </Switch>
-                </Router>
-                {/* </BrowserRouter> */}
+                <BrowserRouter>
+                    <Router>
+                        <Switch>
+                            <Route exact path="/" component={Home} />
+                            <Route exact path="/product" component={ProductPage} />
+                            <Route exact path="/calculator" component={Calculator} />
+                        </Switch>
+                    </Router>
+                </BrowserRouter>
 
+                <a href="#" className="back-to-top"><i className="icofont-simple-up"></i></a>
+                <div id="preloader"></div>
                 <Helmet>
                     {/* <script src="static/js/script.js" type="text/javascript" /> */}
                 </Helmet>
+
             </div>
         )
     }

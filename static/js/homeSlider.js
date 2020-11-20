@@ -18,3 +18,24 @@ $('.carousel .item').each(function () {
         next.children(':first-child').clone().appendTo($(this));
     }
 });
+
+
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+        $(".clearHeader").addClass("darkHeader");
+    } else {
+        $(".clearHeader").removeClass("darkHeader");
+    }
+});
+
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+            $(".navbar-toggler").click();
+        }
+    });
+});
