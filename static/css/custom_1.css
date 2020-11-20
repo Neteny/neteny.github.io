@@ -364,7 +364,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(13, 18, 252, 0.6);
+  /* background: rgba(13, 18, 252, 0.6); */
+  background: rgb(238,174,202); 
+  background: radial-gradient(circle, rgba(238,174,202,1) 7%, rgba(218,177,209,1) 11%, rgba(11,107,221,1) 100%); 
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;

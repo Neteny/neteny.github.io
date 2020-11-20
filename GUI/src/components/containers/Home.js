@@ -227,6 +227,7 @@ export class Home extends Component {
                                     <h2>What our customers <br /> are saying</h2>
                                 </div>
                                 <div class="row">
+
                                     <div id="carousel" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
                                             <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -367,6 +368,7 @@ export class Home extends Component {
 
 
                                     </div>
+
                                 </div>
 
                                 <Helmet>

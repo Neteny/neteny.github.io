@@ -136,9 +136,10 @@ opacity: 1;
     }
      @media screen and (max-width: 780px){
       #prod_page_top{
+        font-size: 2em !important;
         font-size: 'unset';         
           font-weight: 1000;
-           line-height: "unset";
+          line-height: 34px;
          }
          .padd_captions{
           padding-top: 5px;
@@ -146,4 +147,10 @@ opacity: 1;
         }
      }
 
-  
+  #calculator_page{
+    width: 100%;
+    background: url("../img/bg/product.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+  }

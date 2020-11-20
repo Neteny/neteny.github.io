@@ -9,25 +9,82 @@ export class Calculator extends Component {
         return (
             <div>
                 <Nav />
-                <section id="product_page" style={{ fontFamily: "system-ui" }}>
-                    <div className="container">
+                <section id="calculator_page" style={{ fontFamily: "system-ui" }}>
+                    <div className="container-fluid">
                         <div className="row text-center">
-                            <div className="col-10 mx-auto pt-5">
+                            <div className="mx-auto pt-5">
                                 <div data-aos="zoom-out">
                                     <p className="text-white h1" id="prod_page_top">
-                                        Products tailored to <br /> give you the best
+                                        Fast and Trusted <br /> Giftcard Transactions
                                          </p>
                                     <p className="pt-3">
                                         <small className="text-white">
-                                            CoinLynk uses the power of blockchain and cryptocurrency to <br /> solve your everyday needs.
+                                            Buy or Sell Giftcards at the best rates in the world.
                                         </small>
                                     </p>
                                     <div className="text-center">
-                                        <Link to="" className="rounded-pill btn btn-dark"
-                                            style={{ backgroundColor: '#011B33 0% 0% no-repeat padding-box' }}>
-                                            Get Started <i className="la la-angle-right"></i>
-                                        </Link>
+                                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel" data-slide-to="1"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div>
+                                                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                                        <span className="la la-angle-left rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                                        <span className="la la-angle-right rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
+                                                    </a>
+                                                </div>
+                                                <div className="mx-auto">
+                                                    <div class="carousel-item active">
+                                                        <div class="d-block mx-3">
+                                                            <div class="slide-box row text-left">
+                                                                <div className="col-md-4 py-3">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+
+                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+
+                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="carousel-item">
+                                                        <div class="d-block mx-3">
+                                                            <div class="slide-box row text-left">
+                                                                <div className="col-md-4 py-3">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+
+                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+
+                                                                <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
+                                                                    <img src="static/img/sec3/trade-gift-card.png" alt="" className="img-fluid" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -53,7 +110,7 @@ export class Calculator extends Component {
                     </svg>
                 </section>
                 <Footer />
-            </div>
+            </div >
         )
     }
 }
