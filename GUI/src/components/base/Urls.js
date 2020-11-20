@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 
 import Home from "../containers/Home";
 import ProductPage from "../containers/ProductPage";
+import Calculator from "../containers/Calculator";
 export class Urls extends Component {
 
     render() {
@@ -17,6 +18,7 @@ export class Urls extends Component {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/product" component={ProductPage} />
+                        <Route exact path="/calculator" component={Calculator} />
                     </Switch>
                 </Router>
                 {/* </BrowserRouter> */}

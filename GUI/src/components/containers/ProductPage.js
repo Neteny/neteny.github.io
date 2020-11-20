@@ -24,7 +24,7 @@ export class ProductPage extends Component {
                                         </small>
                                     </p>
                                     <div className="text-center">
-                                        <Link to="" className="rounded-pill btn btn-dark"
+                                        <Link to="/calculator" className="rounded-pill btn btn-dark"
                                             style={{ backgroundColor: '#011B33 0% 0% no-repeat padding-box' }}>
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
@@ -63,13 +63,14 @@ export class ProductPage extends Component {
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-success"><b>Trade</b></small></p>
-                                    <h1>Trade giftcards</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
-                                </span>
+                                    <div className="padd_captions">
+                                        <p><small className="text-success"><b>Trade</b></small></p>
+                                        <h1>Exchange currencies</h1>
+                                        <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                         </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-success">
+                                        <Link to="/calculator" className="rounded-pill btn btn-success">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -85,13 +86,14 @@ export class ProductPage extends Component {
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-warning"><b>Trade</b></small></p>
-                                    <h1>Transact via various digital assets</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
-                                </span>
+                                    <div className="padd_captions">
+                                        <p><small className="text-warning"><b>Trade</b></small></p>
+                                        <h1>Exchange currencies</h1>
+                                        <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                         </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-warning text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-warning text-white">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -101,18 +103,19 @@ export class ProductPage extends Component {
                         <div className="row" data-aos="zoom-in" data-aos-delay="160">
                             <div className="col-md-6">
                                 <div className="">
-                                    <img src="static/img/sec3/bit-coin.png" alt="trade-gift-card" className="img-fluid p-5" style={{ height: "30vw" }} />
+                                    <img src="static/img/sec3/bit-coin.png" alt="trade-gift-card" className="img-fluid p-5" style={{ height: "21em" }} />
                                 </div>
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-danger"><b>Trade</b></small></p>
-                                    <h1>Buy and sell bitcoin</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
-                                </span>
+                                    <div className="padd_captions">
+                                        <p><small className="text-danger"><b>Trade</b></small></p>
+                                        <h1>Exchange currencies</h1>
+                                        <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                         </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-danger">
+                                        <Link to="/calculator" className="rounded-pill btn btn-danger">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -128,11 +131,14 @@ export class ProductPage extends Component {
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="" style={{ color: 'rgb(170 102 204)' }}><b>Exchange</b></small></p>
-                                    <h1>Exchange currencies</h1>
-                                    <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait. </span>
+                                    <div className="padd_captions">
+                                        <p><small className="text" style={{ color: 'rgb(170 102 204)' }}><b>Exchange</b></small></p>
+                                        <h1>Exchange currencies</h1>
+                                        <span>Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                         </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-secondary text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-secondary text-white">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -148,12 +154,15 @@ export class ProductPage extends Component {
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-info"><b>Debit Card</b></small></p>
-                                    <h1>Trade giftcards</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait. </span>
+                                    <div className="padd_captions">
+                                        <p><small className="text-info"><b>Debit Card</b></small></p>
+                                        <h1>Trade giftcards</h1>
+                                        <span>
+                                            Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                         </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-info">
+                                        <Link to="/calculator" className="rounded-pill btn btn-info">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -168,13 +177,15 @@ export class ProductPage extends Component {
                             </div>
                             <div className="col-md-6 text-left">
                                 <div>
-                                    <p><small className="text-default" style={{ color: '#a6c' }}><b>Why CoinLynk</b></small></p>
-                                    <h1>Trade giftcards</h1>
-                                    <span>
-                                        Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
+                                    <div className="padd_captions">
+                                        <p><small className="text-default" style={{ color: '#a6c' }}><b>Why CoinLynk</b></small></p>
+                                        <h1>Convert excess airtime to cash</h1>
+                                        <span>
+                                            Buy bitcoin and other digital currencies with a debit or credit card from a leading cryptocurrency exchange platform simply, securely and without the wait.
                                 </span>
+                                    </div>
                                     <div>
-                                        <Link to="" className="rounded-pill btn btn-default text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-default text-white">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>

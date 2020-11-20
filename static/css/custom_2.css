@@ -130,10 +130,20 @@ opacity: 1;
       font-weight: 500;
        line-height: 100px;
      }
+     .padd_captions{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
      @media screen and (max-width: 780px){
       #prod_page_top{
         font-size: 'unset';         
           font-weight: 1000;
            line-height: "unset";
          }
+         .padd_captions{
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
      }
+
+  
