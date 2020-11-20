@@ -24,8 +24,7 @@ export class ProductPage extends Component {
                                         </small>
                                     </p>
                                     <div className="text-center">
-                                        <Link to="/calculator" className="rounded-pill btn btn-dark"
-                                            style={{ backgroundColor: '#011B33 0% 0% no-repeat padding-box' }}>
+                                        <Link to="/calculator" className="rounded-pill btn btn-sm text-white" id="custom_btn_dark">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -70,7 +69,7 @@ export class ProductPage extends Component {
                                          </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-success">
+                                        <Link to="/calculator" className="rounded-pill btn btn-success btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -93,7 +92,7 @@ export class ProductPage extends Component {
                                          </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-warning text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-warning text-white btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -115,7 +114,7 @@ export class ProductPage extends Component {
                                          </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-danger">
+                                        <Link to="/calculator" className="rounded-pill btn btn-danger btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -138,7 +137,7 @@ export class ProductPage extends Component {
                                          </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-secondary text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-secondary text-white btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -162,7 +161,7 @@ export class ProductPage extends Component {
                                          </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-info">
+                                        <Link to="/calculator" className="rounded-pill btn btn-info btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
@@ -185,7 +184,7 @@ export class ProductPage extends Component {
                                 </span>
                                     </div>
                                     <div>
-                                        <Link to="/calculator" className="rounded-pill btn btn-default text-white">
+                                        <Link to="/calculator" className="rounded-pill btn btn-default text-white btn-sm">
                                             Get Started <i className="la la-angle-right"></i>
                                         </Link>
                                     </div>
