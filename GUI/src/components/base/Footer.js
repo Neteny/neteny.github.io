@@ -64,8 +64,8 @@ export class Footer extends Component {
                                 <li>  Customer Reviews</li>
                             </ul>
                         </div>
-                        <div className="col-10 mx-auto border-top  text-center">
-                            <p className="py-5">
+                        <div className="col-10 mx-auto border-top  text-center mb-5">
+                            <p className="py-4">
                                 <small>CoinLynk is a property of Lorem Technologies Limited,
                                 a company duly registered with CAC with RC Number: 1484208.
                                 Account numbers and Verve Cards are provided by Rubies Microfinance Bank
@@ -73,7 +73,7 @@ export class Footer extends Component {
                                 and duly licensed by the Central Bank of Nigeria, and pursuant to
                                        the rules of Verve International Limited.</small>
                             </p>
-                            <small>
+                            <small className="">
                                 CoinLynk 2020. All Rights Reserved.
                                 </small>
                         </div>

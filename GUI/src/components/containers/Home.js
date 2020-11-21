@@ -17,10 +17,17 @@ export class Home extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 mt-5 pt-5">
                                 <div data-aos="zoom-out">
+<<<<<<< HEAD
                                     <h1 className="">  Some call it  <br /> magic, we call it  <br />  <span>convenience</span>.</h1>
                                     <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card<br />
                                          from a leading cryptocurrency exchange platform simply, securely<br />
                                           and without the wait.
+=======
+                                    <h1 className="">  Some call it  <br /> magic, we call   <br /> it convenience.</h1>
+                                    <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card
+                                    from a leading cryptocurrency exchange platform simply, securely
+                                    and without the wait.
+>>>>>>> ad8f0d7e14e1cd23f94b9bb06ca577d6e4b81f95
                                            </p>
                                     <div className="text-center text-lg-left">
                                         <Link to="" className="btn text-white btn-sm" id="custom_btn_dark">Get Started</Link>
@@ -197,7 +204,7 @@ export class Home extends Component {
                     </section>
                     <section id="section-4" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container-fluid">
-                            <div className="row bg-dark text-center">
+                            <div className="row bg-dark text-center py-5">
                                 <div className="col-lg-6 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
                                     <p className="py-2 mt-2 h1"><i className="ri-shield-line text-white"></i></p>
                                     <p><small className="text-success"><b>CoinLynk Guarantee</b></small></p>
@@ -207,27 +214,25 @@ export class Home extends Component {
                                     <img src="" alt="" />
                                     </p>
 
-                                    <div className="row mx-auto text-center py-3">
-                                        <div className="col-6">
-                                            <Link to="" className="btn btn-success border rounded-pill text-white"><span className="resizebtn">Get Started <i className="la la-angle-right"></i></span></Link>
-                                        </div>
-                                        <div className="col-6">
-                                            <Link to="" className="btn btn-none border rounded-pill text-white"><span className="resizebtn">Buy Bitcoin <i className="la la-angle-right"></i></span></Link>
-                                        </div>
+                                    <div className="mx-auto text-center py-3">
+                                        <Link to="" className="btn btn-success border rounded-pill text-white btn-sm"><span className="resizebtn">Get Started <i className="la la-angle-right"></i></span></Link>
+
+
+                                        <Link to="" className="btn btn-none border rounded-pill text-white btn-sm"><span className="resizebtn">Buy Bitcoin <i className="la la-angle-right"></i></span></Link>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section id="section-5" className="about my_font">
-                        <div className="container-fluid">
+                        <div className="container">
                             <div className="row py-5" data-aos="zoom-in" data-aos-delay="50">
                                 <div className="col-12 text-left">
                                     <p><small className="text-success"><b>Testimonials</b></small></p>
                                     <h2>What our customers <br /> are saying</h2>
                                 </div>
                                 <div className="row">
-
                                     <div id="carousel" className="carousel slide" data-ride="carousel">
                                         <ol className="carousel-indicators">
                                             <li data-target="#carousel" data-slide-to="0" className="active"></li>
@@ -243,12 +248,12 @@ export class Home extends Component {
                                                     <span className="la la-angle-right rounded-circle bg-white card p-2 shadow text-dark font-weight-bold h4 border"></span>
                                                 </a>
                                             </div>
-                                            <div className="col-sm-10 mx-auto">
+                                            <div className="col-sm-12 mx-auto">
                                                 <div className="carousel-item active">
                                                     <div className="d-block mx-3">
                                                         <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -265,7 +270,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -282,7 +287,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -307,7 +312,7 @@ export class Home extends Component {
                                                     <div className="d-block mx-3">
                                                         <div className="slide-box row text-left">
                                                             <div className="col-md-4 py-3">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -324,7 +329,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -341,7 +346,7 @@ export class Home extends Component {
                                                             </div>
 
                                                             <div className="col-md-4 py-3 d-none d-lg-block  d-md-block">
-                                                                <div className="card p-3">
+                                                                <div className="border rounded p-3" id="slide_sizer">
                                                                     <div className="py-2">
                                                                         <i className="la la-star text-warning"></i> &thinsp;
                                                                         <i className="la la-star text-warning"></i> &thinsp;
@@ -368,7 +373,6 @@ export class Home extends Component {
 
 
                                     </div>
-
                                 </div>
 
                                 <Helmet>
