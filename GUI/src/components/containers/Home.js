@@ -17,17 +17,10 @@ export class Home extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 mt-5 pt-5">
                                 <div data-aos="zoom-out">
-<<<<<<< HEAD
-                                    <h1 className="">  Some call it  <br /> magic, we call it  <br />  <span>convenience</span>.</h1>
-                                    <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card<br />
-                                         from a leading cryptocurrency exchange platform simply, securely<br />
-                                          and without the wait.
-=======
                                     <h1 className="">  Some call it  <br /> magic, we call   <br /> it convenience.</h1>
                                     <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card
                                     from a leading cryptocurrency exchange platform simply, securely
                                     and without the wait.
->>>>>>> ad8f0d7e14e1cd23f94b9bb06ca577d6e4b81f95
                                            </p>
                                     <div className="text-center text-lg-left">
                                         <Link to="" className="btn text-white btn-sm" id="custom_btn_dark">Get Started</Link>
@@ -375,9 +368,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
 
-                                <Helmet>
-                                    <script src="static/js/homeSlider.js" type="text/javascript" />
-                                </Helmet>
+
                             </div>
                         </div>
                     </section>

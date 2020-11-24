@@ -26,7 +26,7 @@ export class Urls extends Component {
                 <a href="#" className="back-to-top"><i className="icofont-simple-up"></i></a>
                 <div id="preloader"></div>
                 <Helmet>
-                    {/* <script src="static/js/script.js" type="text/javascript" /> */}
+                    <script src="static/js/homeSlider.js" type="text/javascript" />
                 </Helmet>
 
             </div>

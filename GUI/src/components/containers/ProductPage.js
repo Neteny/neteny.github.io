@@ -78,7 +78,7 @@ export class ProductPage extends Component {
                         </div>
 
                         <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
-                            <div className="col-md-6 order-lg-12">
+                            <div className="col-md-6 order-lg-12 order-md-12">
                                 <div className="">
                                     <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>
@@ -123,7 +123,7 @@ export class ProductPage extends Component {
                         </div>
 
                         <div className="row border-bottom pb-5" data-aos="zoom-in" data-aos-delay="160">
-                            <div className="col-md-6 order-lg-12">
+                            <div className="col-md-6 order-lg-12 order-md-12">
                                 <div className="">
                                     <img src="static/img/sec3/exchange-currency.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>
@@ -169,7 +169,7 @@ export class ProductPage extends Component {
                             </div>
                         </div>
                         <div className="row border-bottom" data-aos="zoom-in" data-aos-delay="160">
-                            <div className="col-md-6 order-lg-12">
+                            <div className="col-md-6 order-lg-12 order-md-12">
                                 <div className="">
                                     <img src="static/img/sec3/convert-to-access.png" alt="trade-data-assets" className="img-fluid p-5" />
                                 </div>

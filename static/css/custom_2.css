@@ -148,7 +148,7 @@ opacity: 1;
 
   #calculator_page{
     width: 100%;
-    background: url("../img/bg/product.png");
+    background: url("../img/bg/bg-calculate.jpg");
     background-repeat: no-repeat;
     position: relative;
     background-size: 100% 100%;
@@ -244,13 +244,8 @@ overflow: hidden;
   height: 508px;
   overflow: hidden; 
 }
-<<<<<<< HEAD
 
 
-=======
-
-
->>>>>>> ad8f0d7e14e1cd23f94b9bb06ca577d6e4b81f95
   #shift_center_1{
     position: relative;
     left: 160px;
@@ -259,9 +254,6 @@ overflow: hidden;
     position: relative;
     left: 100px;
   }
-<<<<<<< HEAD
-  @media (max-width: 967px) { 
-=======
   #slide_sizer{
     height: 10em;
     overflow: hidden;
@@ -273,20 +265,22 @@ overflow: hidden;
 .carousel-control-prev {
   left: -47px;
 }
+.off_show{
+  background-color: white !important;
+  padding-bottom: 0 !important;
+  border-radius: 0px !important;
+  border: solid 0px whitesmoke !important;
+  padding-bottom: 0 !important;
+}
   @media (max-width: 967px) { 
  
->>>>>>> ad8f0d7e14e1cd23f94b9bb06ca577d6e4b81f95
     #prod_sec_1,
     #prod_sec_2,
     #prod_sec_3,
     #prod_sec_4{
     height: auto;
     }
-<<<<<<< HEAD
-    #shift_center_1{    
-=======
     #shift_center_2, #shift_center_1{    
->>>>>>> ad8f0d7e14e1cd23f94b9bb06ca577d6e4b81f95
       left: 0px;
     }
     #slide_sizer{
@@ -305,4 +299,128 @@ overflow: hidden;
 #slide_sizer{
   height: 10em;
   overflow: hidden;
+}
+.digital_asset{
+  border: 0.1px solid var(--unnamed-color-000000);
+background: #F8F8F8 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+#cal_sec{
+  border-radius: 1em;
+  box-shadow: 0;
+  height: 40em;
+  overflow: hidden;
+}
+@media (max-width: 967px) { 
+  #cal_sec{
+    border-radius: 1em;
+    box-shadow: 0;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+
+.digital_asset_1{
+padding: 1.6em ;
+background-color: none !important;
+border-radius: .7em;
+border: solid 1px #ced4da;
+/* color: #eee; */
+outline: none;
+}
+
+
+
+
+.cal_btn{
+  top: 1965px;
+left: 330px;
+height: 65px;
+background: var(--unnamed-color-011b33) 0% 0% no-repeat padding-box;
+background: #011B33 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+
+#pad_cal_result{
+padding-top:10em;
+padding-bottom: 10em;
+}
+
+@media (max-width: 767px) { 
+  #pad_cal_result{
+    padding-top: 5em;
+    padding-bottom:  5em;
+    }
+}
+
+.round_ol {
+  display: block;
+  padding: 0 0 0 26px;
+  list-style: none;
+  
+  overflow: hidden;
+  counter-reset: numList;
+}
+.round_ol li { 
+  float: left;
+  position: relative
+}
+.round_ol li:before {
+  counter-increment: numList;
+  content: counter(numList);  
+  float: left;
+  position: absolute;
+  left: -26px;  
+  font: bold 12px sans-serif;
+  text-align: center;
+  color: black;
+  line-height: 20px;  
+  width: 30px; height: 30px;
+  background:white;
+  border: 1px solid;
+  padding:4px 7px;  
+  -moz-border-radius: 999px;
+  border-radius: 999px
+}
+.cal_img_1{
+  width: 50%; 
+  position: relative;
+  left: 9em;
+}
+.cal_img_2{
+  width: 50%; 
+  position: relative;
+  right: -5em;
+}
+
+@media (max-width: 767px) { 
+  .cal_img_2,.cal_img_1{
+    width: auto;
+    left: 0; 
+  }
+}
+
+#color_bullet .color_bullet_li::before {       
+  content: "\2022";  
+  color: #f78a02;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 2em;
+  margin-left: 0em;         
+}
+
+#color_bullet .color_bullet_li_2::before {       
+  content: "\2022";  
+  color:  #168dde;;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 2em; 
+  margin-left: 0em;        
+}
+
+#bitcoin_badge{
+  width: 10%;
 }

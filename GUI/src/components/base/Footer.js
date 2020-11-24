@@ -7,10 +7,10 @@ export class Footer extends Component {
                 <section id="about" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                     <div className="container-fluid">
                         <div className="row" data-aos="zoom-in" data-aos-delay="50">
-                            <div className="col-md-10 col-sm-12  mx-auto text-center py-5" style={{ fontFamily: 'system-ui', background: '#011b33', borderRadius: "2em" }}>
-                                <img src="" alt="" />
-                                <p className="h2 text-white">Start buying bitcoin now</p>
-                                <Link to="" className="rounded-pill btn btn-white resizebtn">
+                            <div className="col-md-10 col-sm-12  mx-auto text-center py-5" style={{ fontFamily: 'system-ui', background: '#011b33', borderRadius: "1.5em" }}>
+                                <img src="static/img/bitcoin_badge.png" alt="" className="img-fluid pb-3" id="bitcoin_badge" />
+                                <p className="h2 text-white pb-3">Start buying bitcoin now</p>
+                                <Link to="" className="rounded-pill btn-white btn-sm">
                                     Get Started  <i className="la la-angle-right"></i>
                                 </Link>
 
