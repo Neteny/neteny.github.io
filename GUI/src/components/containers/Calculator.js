@@ -46,18 +46,18 @@ export class Calculator extends Component {
                                                         <div className="d-block mx-3">
                                                             <div className="slide-box row text-left">
                                                                 <div className="col-md-3 py-3">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/apple-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/dominos.png" alt="" className="img-fluid" />
                                                                 </div>
 
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/gift-card.png" alt="" className="img-fluid" />
                                                                 </div>
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/home-card.png" alt="" className="img-fluid" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -67,18 +67,18 @@ export class Calculator extends Component {
                                                         <div className="d-block mx-3">
                                                             <div className="slide-box row text-left">
                                                                 <div className="col-md-3 py-3">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/uber-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/other-card.png" alt="" className="img-fluid" />
                                                                 </div>
 
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/apple-card.png" alt="" className="img-fluid" />
                                                                 </div>
                                                                 <div className="col-md-3 py-3 d-none d-lg-block  d-md-block">
-                                                                    <img src="static/img/sec3/coinlink-debit-card.png" alt="" className="img-fluid" />
+                                                                    <img src="static/img/dominos.png" alt="" className="img-fluid" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -101,13 +101,13 @@ export class Calculator extends Component {
                             <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                         </defs>
                         <g className="wave1">
-                            <use xlinkHref="#wave-path" x="50" y="3" fill="#f4c1a3" />
+                            <use xlinkHref="#wave-path" x="50" y="3" fill="#dd4d74b0" />
                         </g>
                         <g className="wave2">
-                            <use xlinkHref="#wave-path" x="50" y="0" fill="#ec8e72" />
+                            <use xlinkHref="#wave-path" x="50" y="0" fill="#c2c6fce0" />
                         </g>
                         <g className="wave3">
-                            <use xlinkHref="#wave-path" x="50" y="9" fill="#f3bea1" />
+                            <use xlinkHref="#wave-path" x="50" y="9" fill="#f9ccb2d1" />
                         </g>
                     </svg>
                 </section>
@@ -218,6 +218,7 @@ export class Calculator extends Component {
                         </div>
                     </div>
                 </section>
+
                 <section>
                     <div className="container" style={{ fontFamily: "system-ui" }}>
                         <div className="row" data-aos="zoom-in" data-aos-delay="160">
@@ -284,6 +285,7 @@ export class Calculator extends Component {
                         </div>
                     </div>
                 </section>
+
                 <section>
                     <div className="container">
                         <div className="row" data-aos="zoom-in" data-aos-delay="160">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet";
+
 
 import Nav from "../base/Nav";
 import Footer from "../base/Footer";
@@ -12,11 +12,11 @@ export class Home extends Component {
             <div>
                 <Nav />
 
-                <section id="hero">
-                    <div className="container">
+                <section id="control" className="home">
+                    <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-6 col-md-6 mt-5 pt-5">
-                                <div data-aos="zoom-out">
+                                <div data-aos="zoom-out" id="home_sec_tag">
                                     <h1 className="">  Some call it  <br /> magic, we call   <br /> it convenience.</h1>
                                     <p className="text-white">Buy bitcoin and other digital currencies with a debit or credit card
                                     from a leading cryptocurrency exchange platform simply, securely
@@ -28,7 +28,7 @@ export class Home extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                                <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
+                                <img src="static/img/homeanchor.png" className="img-fluid animated home_img" alt="" />
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export class Home extends Component {
                                             <Link to=""> Learn more <i className="la la-angle-right"></i></Link>
                                         </div>
                                         <div className="m-5">
-                                            <img src="static/img/sec3/trade-data-assets.png" alt="trade-data-assets" className="img-fluid" />
+                                            <img src="static/img/sec3/trade-data-assets.png" style={{ width: "90%" }} alt="trade-data-assets" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>

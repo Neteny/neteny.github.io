@@ -1,6 +1,23 @@
 html, body{
 font-family: 'system-ui' !important;
 }
+#home_sec_tag{
+  padding-left: 5em;
+}
+.home_img{
+  position: relative;
+  width: 100%;
+  left: 1.5em;
+}
+@media (max-width: 767px) { 
+  .home_img{
+   display: none;
+  }
+  #home_sec_tag{
+    padding-left: 0;
+    text-align: center;
+  }
+}
 #hero h1 span {
     color: #fff !important;
     border-bottom: 2px solid #c841dab8 !important;
@@ -166,6 +183,13 @@ opacity: 1;
        { display: none;
         margin-top: auto; }
     }
+.bitcoin_page_bg{
+  width: 100%;
+  background: url("../img/bg/bg-bitcoin.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
 
     .clearHeader{
       background-color: none;
@@ -401,6 +425,9 @@ padding-bottom: 10em;
     width: auto;
     left: 0; 
   }
+  #text_sm_center{
+    text-align: center !important;
+  }
 }
 
 #color_bullet .color_bullet_li::before {       
@@ -423,4 +450,7 @@ padding-bottom: 10em;
 
 #bitcoin_badge{
   width: 10%;
+}
+.bitcoin_page_img{
+  width: 24em;
 }
