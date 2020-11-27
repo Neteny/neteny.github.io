@@ -49,6 +49,11 @@ module.exports = {
         loaders: [{
           loader: "expose?jQuery"
         }]
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: { loader: 'babel-loader' }
       }
 
     ]

@@ -454,3 +454,30 @@ padding-bottom: 10em;
 .bitcoin_page_img{
   width: 24em;
 }
+
+.nav-tabs {
+  border-bottom: 0px solid #ff000000 !important;
+}
+.nav-tabs .nav-link {
+  border: 0px solid transparent !important;
+}
+#myTabMD{
+  position: relative;
+  left: 39em;
+}
+@media (max-width: 1000px) { 
+  #myTabMD{
+    position: relative;
+    left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -39,3 +39,13 @@ $(document).ready(function () {
         }
     });
 });
+
+
+$(function () {
+    $("#tabs").tabs()
+        .on('tabsactivate', function (event, ui) {
+            var index = ui.newTab.index();
+            chart1.render();
+            chart2.render();
+        });
+});

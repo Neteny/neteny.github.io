@@ -3,9 +3,144 @@ import { Link } from 'react-router-dom';
 import Nav from "../base/Nav";
 import Footer from "../base/Footer";
 import { Helmet } from "react-helmet";
+import CanvasJSReact from '../../assets/canvasjs.react';
+var CanvasJS = CanvasJSReact.CanvasJS;
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
 
 export class BitcoinPage extends Component {
+
+
+
     render() {
+        var chart_height;
+        var chart_width;
+        if (window.innerWidth < 768) {
+            chart_height = 300;
+            chart_width = window.innerWidth - 300;
+
+        } else if (window.innerWidth < 991) {
+            chart_height = 400;
+            chart_width = 600;
+        } else if (window.innerWidth < 1199) {
+            chart_height = 400;
+            chart_width = 800;
+        } else {
+            chart_height = 400;
+            chart_width = 1000;
+        }
+
+
+        const one = {
+            height: chart_height,
+            width: window.innerWidth - 100,
+            animationEnabled: true,
+            theme: "light1",
+            title: {
+                text: ""
+            },
+            data: [{
+                type: "line",
+                indexLabelFontSize: 16,
+                dataPoints: [
+                    { y: 420 },
+                    { y: 414 },
+                    { y: 620, indexLabel: "\u2191 highest", markerColor: "red", markerType: "triangle" },
+                    { y: 491 },
+                    { y: 450 },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 480 },
+                    { y: 80, indexLabel: "\u2193 lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 510 }
+                ]
+            }]
+        }
+        const two = {
+            height: chart_height,
+            width: window.innerWidth - 100,
+            animationEnabled: true,
+            theme: "light1",
+            title: {
+                text: ""
+            },
+            data: [{
+                type: "line",
+                indexLabelFontSize: 16,
+                dataPoints: [
+                    { y: 400 },
+                    { y: 650, indexLabel: "\u2191 highest", markerColor: "red", markerType: "triangle" },
+                    { y: 414 },
+                    { y: 600 },
+                    { y: 460 },
+                    { y: 490 },
+                    { y: 480 },
+                    { y: 480 },
+                    { y: 100, indexLabel: "\u2193 lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 550 },
+                    { y: 480 },
+                    { y: 510 }
+                ]
+            }]
+        }
+
+
+        const three = {
+            height: chart_height,
+            width: window.innerWidth - 100,
+            animationEnabled: true,
+            theme: "light1",
+            title: {
+                text: ""
+            },
+            data: [{
+                type: "line",
+                indexLabelFontSize: 16,
+                dataPoints: [
+                    { y: 450 },
+                    { y: 414 },
+                    { y: 621, indexLabel: "\u2191 highest", markerColor: "red", markerType: "triangle" },
+                    { y: 460 },
+                    { y: 450 },
+                    { y: 500 },
+                    { y: 450 },
+                    { y: 480 },
+                    { y: 200 },
+                    { y: 500 },
+                    { y: 80, indexLabel: "\u2193 lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                    { y: 420 }
+                ]
+            }]
+        }
+        const four = {
+            height: chart_height,
+            width: window.innerWidth - 100,
+            animationEnabled: true,
+            theme: "light1",
+            title: {
+                text: ""
+            },
+            data: [{
+                type: "line",
+                indexLabelFontSize: 16,
+                dataPoints: [
+                    { y: 450 },
+                    { y: 614, indexLabel: "\u2191 highest", markerColor: "red", markerType: "triangle" },
+                    { y: 510 },
+                    { y: 460 },
+                    { y: 450 },
+                    { y: 500 },
+                    { y: 480 },
+                    { y: 480 },
+                    { y: 500 },
+                    { y: 400 },
+                    { y: 510 }
+                    { y: 100, indexLabel: "\u2193 lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                ]
+            }]
+        }
         return (
             <div>
                 <Nav />
@@ -151,32 +286,70 @@ export class BitcoinPage extends Component {
                     <section id="" className="about my_font">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 text-center mx-auto" data-aos="fade-right" data-aos-delay="50">
+                                <div className="text-center mx-auto" data-aos="fade-right" data-aos-delay="50">
                                     <h3 className="">
                                         <b> Bitcoin Price Chart</b>
                                     </h3>
                                     <small>Bitcoin rates may fluctuate but our services never will.</small>
                                 </div>
                                 <div className="col-12">
-                                    <div className="">
-                                        <small className="text-muted text-left pb-2"><b>Current BTC Rates</b></small>
-                                        <small className="text-muted  px-2 float-right"><b>One Month</b></small>
-                                        <small className="text-muted  px-2 float-right"><b className="text-primary">One Week</b></small>
-                                        <small className="text-muted  px-2 float-right"><b>24 Hours</b></small>
-                                        <small className="text-muted  px-2 float-right"><b>1 Hour</b></small>
+                                    <small className="text-muted text-left pb-2 text-left"><b>Current BTC Rates</b></small>
+
+                                    <ul className="nav nav-tabs" id="myTabMD" role="tablist">
+                                        <li className="nav-item">
+                                            <a className="nav-link active" id="home-tab-md" data-toggle="tab" href="#home-md" role="tab" aria-controls="home-md"
+                                                aria-selected="true">1 Hour</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md"
+                                                aria-selected="false">24 Hours</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="contact-tab-md" data-toggle="tab" href="#contact-md" role="tab" aria-controls="contact-md"
+                                                aria-selected="false">One Week</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" id="contact-tab-md" data-toggle="tab" href="#one-month" role="tab" aria-controls="contact-md"
+                                                aria-selected="false">One Month</a>
+                                        </li>
+                                    </ul>
+                                    <div className="tab-content pt-5" id="myTabContentMD">
+                                        <div className="tab-pane fade show off_show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
+                                            <div className="">
+                                                <CanvasJSChart options={one}
+                                                // onRef={ref => this.chart = ref}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="tab-pane fade off_show" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
+                                            <div className="">
+                                                <CanvasJSChart options={two}
+                                                // onRef={ref => this.chart = ref}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="tab-pane fade off_show" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
+                                            <div className="">
+                                                <CanvasJSChart options={three}
+                                                // onRef={ref => this.chart = ref}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="tab-pane fade off_show" id="one-month" role="tabpanel" aria-labelledby="contact-tab-md">
+                                            <div className=" mx-auto">
+                                                <CanvasJSChart options={four}
+                                                // onRef={ref => this.chart = ref}
+                                                />
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="chartContainer" style={{ height: '300px', maxWidth: '920px', margin: '0px auto' }}></div>
-                                    <Helmet>
-                                        <script src="static/js/graph.js" type="text/javascript" />
-                                        <script src="static/js/canvasjs.min.js"></script>
-                                        <script>
-                                            document.getElementsByClassName('canvasjs-chart-credit')[0].innerHTML = "heey";
-                                        </script>
-                                    </Helmet>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+
+
                     <section id="" className="about my_font">
                         <div className="container">
                             <div className="row">
@@ -188,8 +361,8 @@ export class BitcoinPage extends Component {
                                         FROM BITCOIN TO NAIRA
                                     </small>
                                 </div>
-                                <div className="col-md-10 mx-auto">
-                                    <div className="row">
+                                <div className="col-md-10 mx-auto text-center">
+                                    <div className="row text-center">
                                         <div className="col-md-5">
                                             <div className="input-group mb-3">
                                                 <input type="text" className="form-control py-4" placeholder="0.00" aria-label="Recipient's username" aria-describedby="basic-addon2" />
@@ -198,7 +371,7 @@ export class BitcoinPage extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="text-center">
+                                        <div className="text-center mx-sm-auto">
                                             <i className="las la-sync h1 text-primary"></i>
                                         </div>
                                         <div className="col-md-5">
@@ -539,5 +712,7 @@ export class BitcoinPage extends Component {
         )
     }
 }
+
+
 
 export default BitcoinPage
