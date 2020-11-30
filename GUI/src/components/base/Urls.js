@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import Home from "../containers/Home";
+import LandingPage from "../containers/LandingPage";
 import ProductPage from "../containers/ProductPage";
 import Calculator from "../containers/Calculator";
 import BitcoinPage from "../containers/BitcoinPage";
@@ -13,6 +13,7 @@ import Airtime from "../containers/Airtime";
 import WhatWeDo from "../containers/WhatWeDo";
 import Help from "../containers/Help";
 import SignIn from "../account/SignIn";
+import Home from "../containers/Home";
 
 export class Urls extends Component {
 
@@ -23,7 +24,7 @@ export class Urls extends Component {
                 <BrowserRouter>
                     <Router>
                         <Switch>
-                            <Route exact path="/" component={Home} />
+                            <Route exact path="/" component={LandingPage} />
                             <Route exact path="/product" component={ProductPage} />
                             <Route exact path="/calculator" component={Calculator} />
                             <Route exact path="/bitcoinpage" component={BitcoinPage} />
@@ -32,6 +33,7 @@ export class Urls extends Component {
                             <Route exact path="/whatwedo" component={WhatWeDo} />
                             <Route exact path="/help" component={Help} />
                             <Route exact path="/signin" component={SignIn} />
+                            <Route exact path="/home" component={Home} />
                         </Switch>
                     </Router>
                 </BrowserRouter>

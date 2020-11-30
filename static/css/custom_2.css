@@ -496,7 +496,9 @@ padding-bottom: 10em;
     display:inline;
   }
 
-
-
-
-
+#nav_2{
+  position: relative !important; 
+  width: 72em;
+  top: -40px;
+  left: -81px;
+}

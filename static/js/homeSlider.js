@@ -49,3 +49,5 @@ $(function () {
             chart2.render();
         });
 });
+
+
