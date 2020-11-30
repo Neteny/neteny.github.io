@@ -2,22 +2,27 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 export class Footer extends Component {
     render() {
+        const urlElements = window.location.href.split('/');
         return (
             <div>
-                <section id="about" className="about my_font" style={{ fontFamily: 'system-ui' }}>
-                    <div className="container-fluid">
-                        <div className="row" data-aos="fade-up" data-aos-delay="50">
-                            <div className="col-md-10 col-sm-12  mx-auto text-center py-5" style={{ fontFamily: 'system-ui', background: '#011b33', borderRadius: "1.5em" }}>
-                                <img src="static/img/bitcoin_badge.png" alt="" className="img-fluid pb-3" id="bitcoin_badge" />
-                                <p className="h2 text-white pb-3">Start buying bitcoin now</p>
-                                <Link to="" className="rounded-pill btn-white btn-sm">
-                                    Get Started  <i className="la la-angle-right"></i>
-                                </Link>
+                {!urlElements[0] == "help" ?
+                    <section id="about" className="about my_font" style={{ fontFamily: 'system-ui' }}>
+                        <div className="container">
+                            <div className="row" data-aos="fade-up" data-aos-delay="50">
+                                <div className="col-md-10 col-sm-12  mx-auto text-center py-5" style={{ fontFamily: 'system-ui', background: '#011b33', borderRadius: "1.5em" }}>
+                                    <img src="static/img/bitcoin_badge.png" alt="" className="img-fluid pb-3" id="bitcoin_badge" />
+                                    <p className="h2 text-white pb-3">Start buying bitcoin now</p>
+                                    <Link to="" className="rounded-pill btn-white btn-sm">
+                                        Get Started  <i className="la la-angle-right"></i>
+                                    </Link>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                    :
+                    ""
+                }
                 <section id="footer-sec" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                     <div className="container-fluid border">
                         <div className="row py-5">

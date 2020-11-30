@@ -17,7 +17,7 @@ export class Nav extends Component {
     }
 
     render() {
-        // this.navClick();
+        const urlElements = window.location.href.split('/');
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light fixed-top navbar-light clearHeader">
@@ -25,22 +25,30 @@ export class Nav extends Component {
                     <button className="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="la la-bars h2 text-white"></span>
                     </button>
-                    <div className="collapse navbar-collapse text-center" id="navbarNavDropdown">
-                        <ul className="navbar-nav text-center mx-auto" id="shift_center_1">
-                            <li className="nav-item">
-                                <Link to="/product" className="nav-link text-white" href="#">Product <span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="" className="nav-link text-white" href="#">Company</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="" className="nav-link text-white" href="#">Rates</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="" className="nav-link text-white" href="#">Help</Link>
-                            </li>
+                    <span className="nav-item float-left">
+                        <Link to="/product" className="nav-link text-white" href="#">| &ensp;Help Center <span className="sr-only">(current)</span></Link>
+                    </span>
 
-                        </ul>
+                    <div className="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                        {!urlElements[0] == "help" ?
+                            < ul className="navbar-nav text-center mx-auto" id="shift_center_1">
+
+                                <li className="nav-item">
+                                    <Link to="/product" className="nav-link text-white" href="#">Product <span className="sr-only">(current)</span></Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="" className="nav-link text-white" href="#">Company</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="" className="nav-link text-white" href="#">Rates</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="" className="nav-link text-white" href="#">Help</Link>
+                                </li>
+                            </ul>
+                            :
+                            ""
+                        }
                         <div className="float-lg-right text-center mx-auto" id="shift_center_2">
                             <ul className="navbar-nav">
                                 <li className="btn btn-sm rounded-pill" id="custom_btn_light_blue">
@@ -85,7 +93,7 @@ export class Nav extends Component {
                     </div>
                 </header>
              */}
-            </div>
+            </div >
         )
     }
 }

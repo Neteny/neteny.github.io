@@ -177,7 +177,13 @@ opacity: 1;
     position: relative;
     background-size: 100% 100%;
   }
-
+  .what_we_do_bg{   
+    background: url("../img/bg/bg-whatwedo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%
+  }
+  
   @media (min-width: 768px) { 
     .dropdown:hover .dropdown-menu {
         display: block;
@@ -196,16 +202,19 @@ opacity: 1;
   position: relative;
   background-size: 100% 100%;
 }
-
-    .clearHeader{
-      background-color: none;
-    }
-    .darkHeader{
-      background-color: #00000073;
-    }
-    .navbar {
-      box-shadow: none !important;
-    }
+.help_bg{
+  background: rgb(12,102,226);
+  background: linear-gradient(302deg, rgba(12,102,226,1) 9%, rgba(0,54,128,1) 47%);
+}
+.clearHeader{
+  background-color: none;
+}
+.darkHeader{
+  background-color: #00000073;
+}
+.navbar {
+  box-shadow: none !important;
+}
     /* @media (max-width: 767px) {
       .clearHeader{
         background-color: #c680fc;
@@ -483,8 +492,9 @@ padding-bottom: 10em;
 }
 
 
-
-
+#inline_list li{ 
+    display:inline;
+  }
 
 
 

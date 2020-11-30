@@ -10,6 +10,8 @@ import Calculator from "../containers/Calculator";
 import BitcoinPage from "../containers/BitcoinPage";
 import DigitalAssets from "../containers/DigitalAssets";
 import Airtime from "../containers/Airtime";
+import WhatWeDo from "../containers/WhatWeDo";
+import Help from "../containers/Help";
 
 export class Urls extends Component {
 
@@ -26,6 +28,8 @@ export class Urls extends Component {
                             <Route exact path="/bitcoinpage" component={BitcoinPage} />
                             <Route exact path="/digitalassets" component={DigitalAssets} />
                             <Route exact path="/airtime" component={Airtime} />
+                            <Route exact path="/whatwedo" component={WhatWeDo} />
+                            <Route exact path="/help" component={Help} />
                         </Switch>
                     </Router>
                 </BrowserRouter>
