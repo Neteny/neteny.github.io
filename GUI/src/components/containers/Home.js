@@ -166,25 +166,25 @@ export class Home extends Component {
                     </section>
                     <section id="product" className="about my_font" style={{ fontFamily: 'system-ui' }}>
                         <div className="container">
-                            <div className="row py-5" data-aos="zoom-in" data-aos-delay="150">
+                            <div className="row py-5" data-aos="fade-up" data-aos-delay="150">
                                 <div className="col-12 text-left">
                                     <p className="h3"><b>Refill: Use Bitcoin For <br /> Your Daily Transactions</b></p>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+                                <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-1.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Airtime Purchase</b></p>
                                         <span>Buy airtime from MTN, Airtel, Glo and 9mobile directly from your BTC wallet.</span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+                                <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-2.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Data Subscription</b></p>
                                         <span>Buy internet data from Swift, Airtel, Spectranet, MTN, Glo and 9mobile directly from your BTC wallet.</span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+                                <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                                     <div className="">
                                         <img src="static/img/refill/refill-3.png" alt="refill-1" className="img-fluid rounded py-2" />
                                         <p className="h5"><b>Airtime to Cash</b></p>
