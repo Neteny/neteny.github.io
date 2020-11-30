@@ -16,7 +16,7 @@ export class Help extends Component {
                                 <div data-aos="zoom-out" className="text-center">
                                     <p className="display-4 font-weight-bold text-white" id="sm_font">How can we help?</p>
                                     <form className="mx-auto col-md-8">
-                                        <input type="text" placeholder="Search the help centre" className="form-control" />
+                                        <input type="text" placeholder="Search the help centre" className="form-control-lg col-12" />
                                     </form>
                                     <div className="text-white px-lg-5 row">
                                         <div className="px-1 card-body">

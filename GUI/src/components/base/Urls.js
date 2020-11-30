@@ -12,6 +12,7 @@ import DigitalAssets from "../containers/DigitalAssets";
 import Airtime from "../containers/Airtime";
 import WhatWeDo from "../containers/WhatWeDo";
 import Help from "../containers/Help";
+import SignIn from "../account/SignIn";
 
 export class Urls extends Component {
 
@@ -30,6 +31,7 @@ export class Urls extends Component {
                             <Route exact path="/airtime" component={Airtime} />
                             <Route exact path="/whatwedo" component={WhatWeDo} />
                             <Route exact path="/help" component={Help} />
+                            <Route exact path="/signin" component={SignIn} />
                         </Switch>
                     </Router>
                 </BrowserRouter>
