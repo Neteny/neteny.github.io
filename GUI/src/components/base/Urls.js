@@ -8,6 +8,8 @@ import Home from "../containers/Home";
 import ProductPage from "../containers/ProductPage";
 import Calculator from "../containers/Calculator";
 import BitcoinPage from "../containers/BitcoinPage";
+import DigitalAssets from "../containers/DigitalAssets";
+
 export class Urls extends Component {
 
     render() {
@@ -21,6 +23,7 @@ export class Urls extends Component {
                             <Route exact path="/product" component={ProductPage} />
                             <Route exact path="/calculator" component={Calculator} />
                             <Route exact path="/bitcoinpage" component={BitcoinPage} />
+                            <Route exact path="/digitalassets" component={DigitalAssets} />
                         </Switch>
                     </Router>
                 </BrowserRouter>

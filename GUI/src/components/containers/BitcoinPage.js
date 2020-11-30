@@ -136,7 +136,7 @@ export class BitcoinPage extends Component {
                     { y: 480 },
                     { y: 500 },
                     { y: 400 },
-                    { y: 510 }
+                    { y: 510 },
                     { y: 100, indexLabel: "\u2193 lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
                 ]
             }]
@@ -417,7 +417,7 @@ export class BitcoinPage extends Component {
                     </section>
                     <section>
                         <div className="container" style={{ fontFamily: "system-ui" }}>
-                            <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                            <div className="row" data-aos="fade-up" data-aos-delay="160">
                                 <div className="col-lg-6 col-md-6 mx-auto">
                                     <img src="static/img/home-moble-photo.png" alt="" className="img-fluid cal_img_1" />
                                 </div>
@@ -483,7 +483,7 @@ export class BitcoinPage extends Component {
                     </section>
                     <section>
                         <div className="container">
-                            <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                            <div className="row" data-aos="fade-up" data-aos-delay="160">
                                 <div className="col-lg-6 col-md-6 order-lg-12 order-md-12 mx-auto">
                                     <img src="static/img/home-moble-photo.png" alt="" className="img-fluid cal_img_2" />
                                 </div>
@@ -550,7 +550,7 @@ export class BitcoinPage extends Component {
                         </div>
                     </section>
                     <section className="container">
-                        <div className="row" data-aos="zoom-in" data-aos-delay="160">
+                        <div className="row" data-aos="fade-up" data-aos-delay="160">
                             <div className="col-md-12 mx-auto text-center pb-5">
                                 <p className="h1">Frequently Asked Questions</p>
                             </div>
