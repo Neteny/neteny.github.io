@@ -10,7 +10,8 @@ export class SideBar extends Component {
         return (
             <div style={{ fontFamily: "system-ui" }}>
                 <a id="show-sidebar" className="btn btn-sm text-center show-sidebar">
-                    <i className="h4 las la-bars"></i>
+                    {/* <i className="h4 las la-bars"></i> */}
+                    <i className="h4 las la-angle-right"></i>
                 </a>
 
                 <nav className="navbar navbar-expand-lg navbar-light bg-light border">
@@ -28,14 +29,25 @@ export class SideBar extends Component {
                                 <strong> <a className="nav-link" href="#">Statistic</a></strong>
                             </li>
                             <li className="nav-item px-1">
-                                <a className="nav-link border rounded-pill bg-white" href="#">
-                                    <i class="las la-bell"></i>
-                                </a>
+                                <Link className="nav-link border rounded-pill bg-white" to="/home">
+                                    <i className="las la-bell"></i>
+                                </Link>
                             </li>
-                            <li className="nav-item dropdown off_show">
-                                <a className="nav-link dropdown-toggle  border rounded-pill px-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {/* <li>
+                                <div className="dropdown">
+                                    <button className="dropbtn">Dropdown</button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                </div>
+                            </li> */}
+
+                            <li className="nav-item dropdown off_show" style={{ position: "static" }}>
+                                <a className="nav-link dropdown-toggle  border rounded-pill px-md-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span className="pr-md-2">
-                                        <i class="las la-user bg-secondary rounded-circle"></i>
+                                        <i className="las la-user bg-secondary rounded-circle"></i>
                                     </span>
                                 </a>
                                 <div className="dropdown-menu off_show" aria-labelledby="navbarDropdown">

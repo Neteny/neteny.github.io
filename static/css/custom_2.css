@@ -170,6 +170,7 @@ opacity: 1;
     position: relative;
     background-size: 100% 100%;
   }
+ 
   .digital_asset_page_bg{
     width: 100%;
     background: url("../img/bg/bg-digitalasset.png");
@@ -214,16 +215,18 @@ opacity: 1;
 }
 .navbar {
   box-shadow: none !important;
+  height: 4em;
+   
 }
-    /* @media (max-width: 767px) {
-      .clearHeader{
-        background-color: #c680fc;
-      }
-      .darkHeader{
-        background-color: #100c2073;
-      }
-    } */
-
+/* @media (max-width: 767px) {
+  .clearHeader{
+    background-color: #c680fc;
+  }
+  .darkHeader{
+    background-color: #100c2073;
+  }
+} */
+/* 
     .show{
       background-color:#0c0c0cb8;
       border-radius: 2em;
@@ -231,6 +234,13 @@ opacity: 1;
       padding-bottom: 1em;
 
     }
+    .off_show{
+      background-color: white !important;
+      padding-bottom: 0 !important;
+      border-radius: 0px !important;
+      border: solid 0px whitesmoke !important;
+      padding-bottom: 0 !important;
+    } */
     /* cutom button section */
 #custom_btn_dark{
   background: var(--unnamed-color-011b33) 0% 0% no-repeat padding-box;
@@ -304,13 +314,7 @@ overflow: hidden;
 .carousel-control-prev {
   left: -47px;
 }
-.off_show{
-  background-color: white !important;
-  padding-bottom: 0 !important;
-  border-radius: 0px !important;
-  border: solid 0px whitesmoke !important;
-  padding-bottom: 0 !important;
-}
+
   @media (max-width: 967px) { 
  
     #prod_sec_1,
@@ -502,3 +506,106 @@ padding-bottom: 10em;
   top: -40px;
   left: -81px;
 }
+
+.recent_trans_1{
+background: var(--unnamed-color-ffc645) 0% 0% no-repeat padding-box;
+background: #f789022e 0% 0% no-repeat padding-box;
+border-radius: 30px;
+color:#FFC645;
+padding:20%;
+font-size: 1em;
+text-align: center;
+position: relative;
+left: 23px; 
+}
+.recent_trans_2{
+  background: var(--unnamed-color-ffc645) 0% 0% no-repeat padding-box;
+  background: #0ef7022e 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  /* color:#FFC645; */
+  padding:20%;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  left: 23px; 
+  }
+  .recent_trans_3{
+    background: var(--unnamed-color-ffc645) 0% 0% no-repeat padding-box;
+    background: #f702022e 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    /* color:#FFC645; */
+    padding:20%;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    left: 23px; 
+    }
+    .recent_trans_4{
+      background: var(--unnamed-color-ffc645) 0% 0% no-repeat padding-box;
+      background: #5938fd44 0% 0% no-repeat padding-box;
+      border-radius: 30px;
+      color: #5A38FD;
+      padding:20%;
+      font-size: 1em;
+      text-align: center;
+      position: relative;
+      left: 23px; 
+      }
+      .recent_trans_5{
+        background: var(--unnamed-color-ffc645) 0% 0% no-repeat padding-box;
+        background: #00c3ff36 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        color:#00C4FF;
+        padding:20%;
+        font-size: 1em;
+        text-align: center;
+        position: relative;
+        left: 23px; 
+        }
+@media (max-width: 900px) { 
+  .recent_trans_5,
+  .recent_trans_4,
+  .recent_trans_3,
+   .recent_trans_2,
+    .recent_trans_1{     
+    left: 5px;
+  }
+}
+.home_sidebar_main_1{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: solid 3px #47c36b;
+}
+.home_sidebar_main_2{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: solid 3px #ffc645;
+}
+.home_sidebar_main_3{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: solid 3px #f0504f;
+}
+.home_sidebar_main_4{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: solid 3px#006cff;
+}
+.home_sidebar_main_5{
+  width: 100%;
+  background: url("../img/banner.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+#home_sidebar_sub_1 .img_sec{
+background-color: #eef9f1;
+border-radius: 10px;
+
+}
+#home_sidebar_sub_1 img{
+ height: 50px;
+ position: relative;
+ left: -7px;
+ margin-top: 5px;
+    }
