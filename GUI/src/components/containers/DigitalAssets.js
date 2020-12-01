@@ -108,8 +108,8 @@ export class DigitalAssets extends Component {
                                     <div className="col-md-6 order-lg-12">
                                         <img src="static/img/sec3/girls.png" alt="" className="img-fluid col-lg-10" />
                                     </div>
-                                    <div className="col-md-6">
-                                        <p className="h1 p-lg-3">
+                                    <div className="col-md-6 p-lg-3">
+                                        <p className="h1">
                                             The pathway to financial freedom
                                         </p>
                                         <small>With the new and expanded digital assets available,
@@ -127,8 +127,8 @@ export class DigitalAssets extends Component {
                                     <div className="col-md-6">
                                         <img src="static/img/refill/refill-2.png" alt="" className="img-fluid col-lg-10" />
                                     </div>
-                                    <div className="col-md-6">
-                                        <p className="h1 p-lg-3">
+                                    <div className="col-md-6 p-lg-3">
+                                        <p className="h1">
                                             The Future is within your Reach
                                         </p>
                                         <small>Patricia enables you experience the future of seamless online payments and fund transfer through digital assets.
