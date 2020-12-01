@@ -666,3 +666,65 @@ background-color: #eee;
   border-top: solid 2px #28a745;
   color: #28a745 !important;
 }
+
+
+
+/* Style the tab */
+.tab {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  /* float: left; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px ;
+  transition: 0.3s;
+  font-size: 17px;
+text-align: center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  border-top: solid 2px #28a745;
+  color:#28a745 ;
+}
+
+/* Create an active/current tablink class */
+.tab .ractive {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border-top: solid 2px #28a745;
+  color:#28a745 ;
+  background-color: #fff;
+}
+.tab .lactive {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border-top: solid 2px #28a745;
+  color:#28a745 ;
+  background-color: #fff;
+}
+
+.tab button.active {
+  background-color: #ccc;
+  border-top: solid 2px #28a745;
+  color:#28a745 ;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}

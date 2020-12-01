@@ -9,15 +9,39 @@ export class BuyAirtime extends Component {
             <div>
                 <div className="page-wrapper chiller-theme toggled">
                     <SideBar />
-                    <main class="page-content border">
+                    <main className="page-content border">
                         <div className="container-fluid">
                             <div className="row" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="col-md-9">
                                     <div className="row">
 
-                                        <div className="col-md-6 pb-4" style={{ borderRadius: "1em" }}>
-                                            <div className="border-right">
-                                                <ul className="nav nav-tabs row" role="tablist">
+                                        <div className="col-md-6 pb-4">
+                                            <div className="tab">
+                                                <div className="row">
+                                                    <div className="col-6 mx-auto text-center">
+                                                        <button className="tablinks active" onClick={(event) => openCity(event, 'London')}>London</button>
+                                                    </div>
+
+
+                                                    <div className="col-6 mx-auto text-center">
+                                                        <button className="tablinks" onClick={(event) => openCity(event, 'Paris')}>Paris</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="London" className="tabcontent" style={{ display: "block" }}>
+                                                <h3>London</h3>
+                                                <p>London is the capital city of England.</p>
+                                            </div>
+
+                                            <div id="Paris" className="tabcontent">
+                                                <h3>Paris</h3>
+                                                <p>Paris is the capital of France.</p>
+                                            </div>
+
+                                            {/*                                             
+                                            <div className="col-12 mx-auto border-right border-left" style={{ borderRadius: "1em" }}>
+                                                <ul className="nav nav-tabs row float-center text-center" role="tablist">
                                                     <li className="nav-item col-6">
                                                         <a className="nav-link-left active text-muted" data-toggle="tab" href="#panel555" role="tab">
                                                             Airtime</a>
@@ -61,14 +85,14 @@ export class BuyAirtime extends Component {
 
 
                                                 </div>
-                                            </div>
+                                            </div> */}
 
                                         </div>
                                         <div className="col-md-6 text-center mx-auto">
                                             <div className="border" id="pad_cal_result" style={{ borderRadius: "1em" }}>
-                                                <p className="font-weight-bold text-dark h5 text-center"></p>
-                                                <p className="text-dark display-3"></p>
-                                                <p className="font-weight-bold text-muted"></p>
+                                                <p className="font-weight-bold text-dark h5 text-center">Total Payout</p>
+                                                <p className="text-dark display-3">NGN 0.00</p>
+                                                <p className="font-weight-bold text-muted">Rate: NGN 0.00</p>
                                             </div>
                                         </div>
 
