@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet";
 import SideBar from "../base/SideBar"
-import Nav from "../base/Nav"
+
 export class Home extends Component {
     render() {
         return (
