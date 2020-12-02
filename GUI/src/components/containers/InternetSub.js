@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import SideBar from "../base/SideBar"
+import SideBar from "../base/SideBar";
+import { Helmet } from "react-helmet";
 
-export class BuyAirtime extends Component {
+export class InternetSub extends Component {
     render() {
         return (
             <div>
@@ -18,12 +19,12 @@ export class BuyAirtime extends Component {
                                             <div className="border" style={{ borderRadius: "1em", paddingTop: "12px" }}>
                                                 <ul className="nav nav-tabs row" role="tablist">
                                                     <li className="nav-item col-6">
-                                                        <a className="nav-link-left active text-muted" data-toggle="tab" href="#panel555" role="tab">
-                                                            Airtime</a>
+                                                        <a className="nav-link-left active text-muted" data-toggle="tab" href="#panel555" role="tab" style={{ paddingRight: "24px" }}>
+                                                            Cable TV</a>
                                                     </li>
                                                     <li className="nav-item col-6">
-                                                        <a className="nav-link-right text-muted" data-toggle="tab" href="#panel666" role="tab" style={{ paddingRight: "90px" }}>
-                                                            Data
+                                                        <a className="nav-link-right text-muted" data-toggle="tab" href="#panel666" role="tab" style={{ paddingRight: "72px" }}>
+                                                            Internet
                                                     </a>
                                                     </li>
                                                 </ul>
@@ -62,9 +63,9 @@ export class BuyAirtime extends Component {
                                                                 <div className="border px-3 rounded-lg">
                                                                     <div className="mt-4 mb-0">
                                                                         <label htmlFor="air_select">
-                                                                            <img src="static/img/mtn.png" alt="" className="img-fluid" />
+                                                                            <img src="static/img/dstv.jpg" alt="" className="img-fluid" />
                                                                     &ensp;
-                                                                    <span className="font-weight-bold">MTN</span>
+                                                                    <span className="font-weight-bold">DStv</span>
                                                                         </label>
                                                                     </div>
                                                                     <select
@@ -91,22 +92,26 @@ export class BuyAirtime extends Component {
                                                             </div>
                                                         </div>
                                                         <div className="pt-3">
-                                                            <sup className="text-muted " style={{ fontSize: "10px" }}>SELECT AIRTIME AMOUNT</sup>
-                                                            <div className="form-group row">
-                                                                <div className="col-sm">
-                                                                    <input type="text" style={{ fontSize: "10px" }} className="form-control form-control-sm" placeholder="100" />
-                                                                </div>
-                                                                <div className="col-sm">
-                                                                    <input type="text" style={{ fontSize: "10px" }} className="form-control form-control-sm" placeholder="200" />
-                                                                </div>
-                                                                <div className="col-sm">
-                                                                    <input type="text" style={{ fontSize: "10px" }} className="form-control form-control-sm" placeholder="500" />
-                                                                </div>
-                                                                <div className="col-sm">
-                                                                    <input type="text" style={{ fontSize: "10px" }} className="form-control form-control-sm" placeholder="1000" />
-                                                                </div>
-                                                                <div className="col-sm">
-                                                                    <input type="text" style={{ fontSize: "10px" }} className="form-control form-control-sm" placeholder="other" />
+                                                            <sup className="text-muted " style={{ fontSize: "10px" }}>SELECT DATA AMOUNT</sup>
+                                                            <div className="form-group">
+                                                                <div className="border px-3 rounded-lg">
+                                                                    <div className="mt-4 mb-0">
+                                                                        <label htmlFor="air_select">
+                                                                            <span className="font-weight-bold">
+                                                                                DSTV Premium @ NGN17,500
+                                                                    </span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <select
+                                                                        id="air_select"
+                                                                        className="col-12"
+                                                                        searchable="Search here.."
+                                                                        defaultValue={"Naira Wallet"}>
+                                                                        <option></option>
+                                                                        <option>100NGN</option>
+                                                                        <option>1000NGN</option>
+                                                                        <option>10NGN</option>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -213,7 +218,7 @@ export class BuyAirtime extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6 text-center mx-auto border airtime_sec_2">
+                                        <div className="col-md-6 text-center mx-auto border airtime_sec_2" style={{ height: "42.5em" }}>
                                             <p className="font-weight-bold text-left pt-2 pb-3">Transaction details</p>
                                             <div className="card-header rounded-lg">
                                                 <div className="p-3 row">
@@ -221,7 +226,7 @@ export class BuyAirtime extends Component {
                                                         <span className="float-left font-weight-bold">You are buying</span>
                                                     </div>
                                                     <div className="col-6">
-                                                        <span className="float-right font-weight-bold">Airtime</span>
+                                                        <span className="float-right font-weight-bold">Cable TV Sub</span>
                                                     </div>
                                                 </div>
                                                 <div className="p-3 row border-top">
@@ -299,9 +304,12 @@ export class BuyAirtime extends Component {
 
                     </main>
                 </div>
+                <Helmet>
+                    <script src="static/js/sidebar.js" type="text/javascript" />
+                </Helmet>
             </div >
         )
     }
 }
 
-export default BuyAirtime;
+export default InternetSub;

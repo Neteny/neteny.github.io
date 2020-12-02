@@ -14,6 +14,8 @@ import WhatWeDo from "../containers/WhatWeDo";
 import Help from "../containers/Help";
 import Wallet from "../containers/Wallet";
 import BuyAirtime from "../containers/BuyAirtime";
+import CableTv from "../containers/CableTv";
+import InternetSub from "../containers/InternetSub";
 import SignIn from "../account/SignIn";
 import Home from "../containers/Home";
 
@@ -38,6 +40,8 @@ export class Urls extends Component {
                             <Route exact path="/home" component={Home} />
                             <Route exact path="/wallet" component={Wallet} />
                             <Route exact path="/buyAirtime" component={BuyAirtime} />
+                            <Route exact path="/cabletv" component={CableTv} />
+                            <Route exact path="/internet_subscription" component={InternetSub} />
                         </Switch>
                     </Router>
                 </BrowserRouter>

@@ -617,18 +617,18 @@ padding-right: 40px;
 padding-left: 70px;
 box-shadow: #eee;
 color: #eee;
-border-top-left-radius: 2em;
-background-color: #eee;
+border-top-left-radius: .5em;
+background-color: #eeeeee7a;;
 }
 .nav-link-right{
   padding-top: 15px;
   padding-bottom: 30px;
-  padding-right: 70px;
+  padding-right: 93px;
   padding-left: 40px;
   box-shadow: #eee;
   color: #eee;
-    border-top-right-radius: 2em;
-  background-color: #eee;
+    border-top-right-radius: .5em;
+  background-color:#eeeeee7a;;
   }
   @media (max-width: 900px) { 
     .nav-link-left{   
@@ -727,4 +727,48 @@ text-align: center;
   border-top: none;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
+}
+#air_select{
+  outline: currentcolor none medium;
+border: 0px solid rgba(255, 0, 0, 0);
+position: relative;
+top: -2em;
+background: none;
+}
+
+.sav_top_1{
+background: var(--unnamed-color-82b1ff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-1e3449);
+background: #F3FCFF 0% 0% no-repeat padding-box;
+border: 0px solid #1E3449;
+color: #117add;
+border-radius: 100%;
+padding: 10px;
+}
+.sav_1{
+  position: relative;
+  top:-30px;
+  left: 5px;
+}
+.sav_li_2{
+  position: relative;
+  top:-135px;
+}
+.sav_2{
+  position: relative;
+  top:-160px;
+  left: 5px;
+}
+.sav_li_3{
+  position: relative;
+  top:-273px;
+}
+.sav_li_4{
+  position: relative;
+  top:-290px;
+}
+
+.airtime_sec_2{
+  border-radius: 1em;
+  height: 39em;
 }
