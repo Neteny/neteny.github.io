@@ -24,6 +24,7 @@ import Cards from "../containers/Cards";
 import Exchange from "../containers/Exchange";
 import Transactions from "../containers/Transactions";
 import TradeBitcoin from "../containers/TradeBitcoin";
+import BuyBitcoin from "../containers/BuyBitcoin";
 import SignIn from "../account/SignIn";
 import Home from "../containers/Home";
 
@@ -49,7 +50,7 @@ export class Urls extends Component {
                             <Route exact path="/wallet" component={Wallet} />
                             <Route exact path="/buyAirtime" component={BuyAirtime} />
                             <Route exact path="/cabletv" component={CableTv} />
-                            <Route exact path="/internet_subscription" component={InternetSub} />
+                            <Route exact path="/buybitcoin" component={BuyBitcoin} />
                             <Route exact path="/giftcard" component={GiftCard} />
                             <Route exact path="/electricity" component={Electricity} />
                             <Route exact path="/airtimetocash" component={AirtimeToCash} />

@@ -617,8 +617,8 @@ padding-right: 40px;
 padding-left: 70px;
 box-shadow: #eee;
 color: #eee;
-border-top-left-radius: .5em;
-background-color: #eeeeee7a;;
+border-top-left-radius: .5e4;
+/* background-color: #eeeeee7a; */
 }
 .nav-link-right{
   padding-top: 15px;
@@ -627,8 +627,8 @@ background-color: #eeeeee7a;;
   padding-left: 40px;
   box-shadow: #eee;
   color: #eee;
-    border-top-right-radius: .5em;
-  background-color:#eeeeee7a;;
+    border-top-right-radius: .4em;
+  /* background-color:#eeeeee7a; */
   }
   @media (max-width: 900px) { 
     .nav-link-left{   
