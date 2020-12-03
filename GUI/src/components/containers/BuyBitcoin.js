@@ -85,94 +85,58 @@ export class BuyBitcoin extends Component {
                                                             </div>
                                                         </div>
                                                         <div>
-                                                            <sup className="text-muted " style={{ fontSize: "10px" }}>INPUT PHONE NUMBER</sup>
 
                                                             <div className="row">
-                                                                <div className="col-md-5">
+                                                                <sup className="text-muted py-2 col-12 text-left" style={{ fontSize: "10px" }}>INPUT PHONE NUMBER</sup>
 
-                                                                    <small className="text-muted">SELECT WALLET</small>
+                                                                <div className="col-md-5">
                                                                     <div className="form-group">
-                                                                        <div className="border px-3 rounded-lg">
-                                                                            <div className="mt-4 mb-0">
-                                                                                <label htmlFor="air_select">
-                                                                                    <span className="rounded-circle bg-warning text-white p-2">B</span>
-                                                                    &ensp;
-                                                                    <span className="font-weight-bold">BTC</span>
-                                                                                </label>
-                                                                            </div>
-                                                                            <select
-                                                                                id="air_select"
-                                                                                className="col-12"
-                                                                                searchable="Search here.."
-                                                                                defaultValue={"Naira Wallet"}>
-                                                                                <option></option>
-                                                                                <option>naira</option>
-                                                                                <option>kobo</option>
-                                                                                <option>satochi</option>
-                                                                            </select>
-                                                                        </div>
+                                                                        <input type="text" className="form-control form-control-lg" placeholder="# 0.00" />
                                                                     </div>
                                                                 </div>
 
-                                                                <div className="text-center mx-sm-auto la_sync">
-                                                                    <i className="las la-sync h1 text-success"></i>
+                                                                <div className="text-center mx-sm-auto">
+                                                                    <i className="las la-exchange-alt h1 text-success"></i>
                                                                 </div>
 
                                                                 <div className="col-md-5">
-
-                                                                    <small className="text-muted">SELECT WALLET</small>
                                                                     <div className="form-group">
-                                                                        <div className="border px-3 rounded-lg">
-                                                                            <div className="mt-4 mb-0">
-                                                                                <label htmlFor="air_select">
-                                                                                    <span className="rounded-circle bg-primary text-white p-2">$</span>
-                                                                    &ensp;
-                                                                    <span className="font-weight-bold">Dollars</span>
-                                                                                </label>
-                                                                            </div>
-                                                                            <select
-                                                                                id="air_select"
-                                                                                className="col-12"
-                                                                                searchable="Search here.."
-                                                                                defaultValue={"Naira Wallet"}>
-                                                                                <option></option>
-                                                                                <option>naira</option>
-                                                                                <option>kobo</option>
-                                                                                <option>satochi</option>
-                                                                            </select>
-                                                                        </div>
+                                                                        <input type="text" className="form-control form-control-lg" placeholder="$ 0.00" />
                                                                     </div>
                                                                 </div>
 
                                                             </div>
+                                                            <div className="row">
+
+                                                                <div className="col-md-5">
+                                                                    <div className="form-group">
+                                                                        <i className="las la-exchange-alt h1 text-success" style={{ transform: "rotate(90deg)" }}></i>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div className="text-center mx-sm-auto">
+                                                                    {/* <i className="las la-exchange-alt h1 text-success"></i> */}
+                                                                </div>
+
+                                                                <div className="col-md-5">
+                                                                    <div className="form-group float-right">
+                                                                        <i className="las la-exchange-alt h1 text-success" style={{ transform: "rotate(90deg)" }}></i>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-md-12">
+                                                                    <div className="form-group">
+                                                                        <input type="text" className="form-control form-control-lg" placeholder="0.00 BTC" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
 
                                                         </div>
                                                         <div className="pt-3">
-                                                            <sup className="text-muted " style={{ fontSize: "10px" }}>SELECT DATA AMOUNT</sup>
-                                                            <div className="form-group">
-                                                                <div className="border px-3 rounded-lg">
-                                                                    <div className="mt-4 mb-0">
-                                                                        <label htmlFor="air_select">
-                                                                            <span className="font-weight-bold">
-                                                                                DSTV Premium @ NGN17,500
-                                                                    </span>
-                                                                        </label>
-                                                                    </div>
-                                                                    <select
-                                                                        id="air_select"
-                                                                        className="col-12"
-                                                                        searchable="Search here.."
-                                                                        defaultValue={"Naira Wallet"}>
-                                                                        <option></option>
-                                                                        <option>100NGN</option>
-                                                                        <option>1000NGN</option>
-                                                                        <option>10NGN</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="pt-3">
-                                                            <button className="btn btn-success btn-block">Continue</button>
+                                                            <button className="btn btn-success btn-block">buy</button>
                                                         </div>
                                                     </div>
 
@@ -395,36 +359,6 @@ export class BuyBitcoin extends Component {
                                          </div>
                                         </li>
 
-                                        <li className="number-circle-list--list-item warn_li border-top py-3" data-aos="fade-up" data-aos-delay="100">
-                                            <a data-toggle="collapse" href="#faq4">
-                                                <span className="text-left text-dark h6">What are the fees?</span>
-                                                <i className="text-right float-right la la-angle-down font-weight-bold text-dark h6"></i>
-                                            </a>
-
-                                            <div id="faq4" className="collapse off_show col-12 text-justify" data-parent=".faq-list" style={{ listStyle: "none" }}>
-                                                We’ll send your bitcoin within 15 minutes of payment approval or get your next transaction fee free.
-                                         </div>
-                                        </li>
-                                        <li className="number-circle-list--list-item warn_li border-top py-3" data-aos="fade-up" data-aos-delay="100">
-                                            <a data-toggle="collapse" href="#faq4">
-                                                <span className="text-left text-dark h6">Delayed incoming BTC</span>
-                                                <i className="text-right float-right la la-angle-down font-weight-bold text-dark h6"></i>
-                                            </a>
-
-                                            <div id="faq4" className="collapse off_show col-12 text-justify" data-parent=".faq-list" style={{ listStyle: "none" }}>
-                                                We’ll send your bitcoin within 15 minutes of payment approval or get your next transaction fee free.
-                                         </div>
-                                        </li>
-                                        <li className="number-circle-list--list-item warn_li border-top py-3" data-aos="fade-up" data-aos-delay="100">
-                                            <a data-toggle="collapse" href="#faq4">
-                                                <span className="text-left text-dark h6">Universal Wallet</span>
-                                                <i className="text-right float-right la la-angle-down font-weight-bold text-dark h6"></i>
-                                            </a>
-
-                                            <div id="faq4" className="collapse off_show col-12 text-justify" data-parent=".faq-list" style={{ listStyle: "none" }}>
-                                                We’ll send your bitcoin within 15 minutes of payment approval or get your next transaction fee free.
-                                         </div>
-                                        </li>
                                     </ol>
 
 
