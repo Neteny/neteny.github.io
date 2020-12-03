@@ -118,16 +118,16 @@ export class SideBar extends Component {
                                     <span>TRADE</span>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="lab la-bitcoin"></i>
                                         <span>Bitcoin</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <Link to="/giftcard">
                                         <i className="las la-gift"></i>
                                         <span>Giftcards</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="#">

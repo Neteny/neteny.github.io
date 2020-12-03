@@ -27,10 +27,7 @@ export class BuyAirtime extends Component {
                                                     </a>
                                                     </li>
                                                 </ul>
-
-
                                                 <div className="tab-content">
-
                                                     <div className="tab-pane fade in show active off_show" id="panel555" role="tabpanel">
                                                         <div>
                                                             <sup className="text-muted " style={{ fontSize: "10px" }}>SELECT WALLET</sup>
@@ -114,11 +111,7 @@ export class BuyAirtime extends Component {
                                                             <button className="btn btn-success btn-block">Continue</button>
                                                         </div>
                                                     </div>
-
-
-
                                                     <div className="tab-pane fade" id="panel666" role="tabpanel" style={{ backgroundColor: 'white' }}>
-
                                                         <div>
                                                             <sup className="text-muted " style={{ fontSize: "10px" }}>SELECT WALLET</sup>
                                                             <div className="form-group">

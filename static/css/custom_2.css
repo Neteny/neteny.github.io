@@ -671,9 +671,8 @@ background-color: #eeeeee7a;;
 
 /* Style the tab */
 .tab {
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border: 1px solid #ccc;
+ 
+  border: 0px solid #ccc;
   background-color: #fff;
 }
 
@@ -692,30 +691,15 @@ text-align: center;
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
-  border-top: solid 2px #28a745;
-  color:#28a745 ;
+  border-bottom: solid 2px #28a745;
+  color:#28a745 ;;
 }
 
-/* Create an active/current tablink class */
-.tab .ractive {
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border-top: solid 2px #28a745;
-  color:#28a745 ;
-  background-color: #fff;
-}
-.tab .lactive {
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border-top: solid 2px #28a745;
-  color:#28a745 ;
-  background-color: #fff;
-}
+
 
 .tab button.active {
-  background-color: #ccc;
-  border-top: solid 2px #28a745;
+  /* background-color: #ccc; */
+  border-bottom: solid 2px #28a745;
   color:#28a745 ;
 }
 
@@ -723,10 +707,9 @@ text-align: center;
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-top: none;
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
+
 }
 #air_select{
   outline: currentcolor none medium;
@@ -771,4 +754,17 @@ padding: 10px;
 .airtime_sec_2{
   border-radius: 1em;
   height: 39em;
+}
+
+.la_sync{
+  position: relative;
+  top: 75px;
+}
+
+@media (max-width: 900px) { 
+  .la_sync{
+  top: 8px;
+  left: 8em;
+  }
+  
 }

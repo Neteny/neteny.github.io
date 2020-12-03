@@ -16,6 +16,14 @@ import Wallet from "../containers/Wallet";
 import BuyAirtime from "../containers/BuyAirtime";
 import CableTv from "../containers/CableTv";
 import InternetSub from "../containers/InternetSub";
+import GiftCard from "../containers/GiftCard";
+import Electricity from "../containers/Electricity";
+import Education from "../containers/Education";
+import AirtimeToCash from "../containers/AirtimeToCash";
+import Cards from "../containers/Cards";
+import Exchange from "../containers/Exchange";
+import Transactions from "../containers/Transactions";
+import TradeBitcoin from "../containers/TradeBitcoin";
 import SignIn from "../account/SignIn";
 import Home from "../containers/Home";
 
@@ -42,6 +50,14 @@ export class Urls extends Component {
                             <Route exact path="/buyAirtime" component={BuyAirtime} />
                             <Route exact path="/cabletv" component={CableTv} />
                             <Route exact path="/internet_subscription" component={InternetSub} />
+                            <Route exact path="/giftcard" component={GiftCard} />
+                            <Route exact path="/electricity" component={Electricity} />
+                            <Route exact path="/airtimetocash" component={AirtimeToCash} />
+                            <Route exact path="/education" component={Education} />
+                            <Route exact path="/cards" component={Cards} />
+                            <Route exact path="/exchange" component={Exchange} />
+                            <Route exact path="/transactions" component={Transactions} />
+                            <Route exact path="/tradebitcoin" component={TradeBitcoin} />
                         </Switch>
                     </Router>
                 </BrowserRouter>
