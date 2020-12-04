@@ -13,17 +13,17 @@ export class Transactions extends Component {
                         <div className="container-fluid">
                             <div className="row" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="col-md-9">
-                                    <div class="tab border-top border-bottom row">
-                                        <div className="col">
+                                    <div class="tab border-top border-bottom row text-center">
+                                        <div className="col-md-3 mx-auto">
                                             <button class="tablinks active" onClick={(event) => openCity(event, 'All')}>All</button>
                                         </div>
-                                        <div className="col">
+                                        <div className="col-md-3 mx-auto">
                                             <button class="tablinks" onClick={(event) => openCity(event, 'Withdrawals')}>Withdrawals</button>
                                         </div>
-                                        <div className="col">
+                                        <div className="col-md-3 mx-auto">
                                             <button class="tablinks" onClick={(event) => openCity(event, 'Debit')}>Debit</button>
                                         </div>
-                                        <div className="col">
+                                        <div className="col-md-3 mx-auto">
                                             <button class="tablinks" onClick={(event) => openCity(event, 'Credit')}>Credit</button>
                                         </div>
                                     </div>
@@ -271,7 +271,8 @@ export class Transactions extends Component {
 
                     </main>
                 </div>
-            </div>)
+            </div>
+        )
     }
 }
 

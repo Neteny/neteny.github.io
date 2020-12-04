@@ -57,11 +57,11 @@ export class Nav extends Component {
                         <div className="float-lg-right text-center mx-auto" id="shift_center_2">
                             <ul className="navbar-nav">
                                 <li className="btn btn-sm rounded-pill" id="custom_btn_light_blue">
-                                    <Link to="" className="text-white">Sign in <i className="la la-angle-right"></i>
+                                    <Link to="/signin" className="text-white">Sign in <i className="la la-angle-right"></i>
                                     </Link>
                                 </li>
                                 <li className="btn btn-sm rounded-pill" id="custom_btn_dark">
-                                    <Link to="" className="text-white">Get Started <i className="la la-angle-right"></i>
+                                    <Link to="signup" className="text-white">Get Started <i className="la la-angle-right"></i>
                                     </Link>
                                 </li>
                             </ul>
