@@ -11,7 +11,7 @@ import Alerts from "./components/base/Alerts"
 // Alert Options
 const alertOptions = {
     timeout: 3000,
-    position: 'top center',
+    position: 'middle',
 };
 
 

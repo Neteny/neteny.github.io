@@ -25,7 +25,9 @@ import Exchange from "../containers/Exchange";
 import Transactions from "../containers/Transactions";
 import TradeBitcoin from "../containers/TradeBitcoin";
 import BuyBitcoin from "../containers/BuyBitcoin";
+import Settings from "../containers/Settings";
 import SignIn from "../account/SignIn";
+import SignUp from "../account/SignUp";
 import Home from "../containers/Home";
 
 export class Urls extends Component {
@@ -37,6 +39,9 @@ export class Urls extends Component {
                 <BrowserRouter>
                     <Router>
                         <Switch>
+                            <Route exact path="/signup" component={SignUp} />
+                            <Route exact path="/settings" component={Settings} />
+                            <Route exact path="/signin" component={SignIn} />
                             <Route exact path="/" component={LandingPage} />
                             <Route exact path="/product" component={ProductPage} />
                             <Route exact path="/calculator" component={Calculator} />
@@ -45,7 +50,6 @@ export class Urls extends Component {
                             <Route exact path="/airtime" component={Airtime} />
                             <Route exact path="/whatwedo" component={WhatWeDo} />
                             <Route exact path="/help" component={Help} />
-                            <Route exact path="/signin" component={SignIn} />
                             <Route exact path="/home" component={Home} />
                             <Route exact path="/wallet" component={Wallet} />
                             <Route exact path="/buyAirtime" component={BuyAirtime} />

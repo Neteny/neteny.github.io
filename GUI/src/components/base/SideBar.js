@@ -83,42 +83,42 @@ export class SideBar extends Component {
                                     <span>&ensp;</span>
                                 </li>
                                 <li className="">
-                                    <a href="#" className="card-header rounded-pill">
+                                    <Link to="/home" className="card-header rounded-pill">
                                         <i className="la la-home"></i>
                                         <span>Home</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="">
-                                    <a href="#">
+                                    <Link to="/wallet">
                                         <i className="las la-wallet"></i>
                                         <span>Wallet</span>
 
-                                    </a>
+                                    </Link>
 
                                 </li>
                                 <li className="">
-                                    <a href="#">
+                                    <Link to="/cards">
                                         <i className="las la-credit-card"></i>
                                         <span>Cards</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="">
-                                    <a href="#">
+                                    <Link to="/exchange">
                                         <i className="las la-exchange-alt"></i>
                                         <span>Exchange</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="">
-                                    <a href="#">
+                                    <Link to="/transactions">
                                         <i className="las la-clock"></i>
                                         <span>Transactions</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="header-menu">
                                     <span>TRADE</span>
                                 </li>
                                 <li>
-                                    <Link to="#">
+                                    <Link to="tradebitcoin">
                                         <i className="lab la-bitcoin"></i>
                                         <span>Bitcoin</span>
                                     </Link>
@@ -130,21 +130,21 @@ export class SideBar extends Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="las la-landmark"></i>
                                         <span>Perfect Money</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="lab la-cc-paypal"></i>
                                         <span>Paypal Funds</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             <div className="border-top pl-4 pt-3">
                                 <p>
-                                    <Link to="" className="text-white">
+                                    <Link to="/settings" className="text-white">
                                         <i className="las la-cog"></i>
                                         &ensp;Settings
                         </Link>
